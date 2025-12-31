@@ -1,0 +1,5801 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_858cab1e805d23f9eb00d4014ffae548 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_858cab1e805d23f9eb00d4014ffae548" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_858cab1e805d23f9eb00d4014ffae548 = L.map(
+                "map_858cab1e805d23f9eb00d4014ffae548",
+                {
+                    center: [50.85, 4.35],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b9e4ccf7104187970ad7d331c18b42ea = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b9e4ccf7104187970ad7d331c18b42ea.addTo(map_858cab1e805d23f9eb00d4014ffae548);
+        
+    
+            var marker_cluster_a8aee90151259cf02d60331b69c88a1c = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_494e2ddb8e258e0d092a899ba5e6233f = L.marker(
+                [51.1967036, 4.4224195],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_b84891b40358dc02d0d8389a1ac9b11c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f07278445fda43d5c82534242449aa59 = $(`<div id="html_f07278445fda43d5c82534242449aa59" style="width: 100.0%; height: 100.0%;">A La Turka Berchem<br>Avg Price: €7.67</div>`)[0];
+                popup_b84891b40358dc02d0d8389a1ac9b11c.setContent(html_f07278445fda43d5c82534242449aa59);
+            
+        
+
+        marker_494e2ddb8e258e0d092a899ba5e6233f.bindPopup(popup_b84891b40358dc02d0d8389a1ac9b11c)
+        ;
+
+        
+    
+    
+            var marker_c33924c9727b1029032d1439d8748d78 = L.marker(
+                [51.319332, 4.949775],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_fe2fcca2ab20dc995032b99de7afba7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91c286d6a896a5bac926935044684cf3 = $(`<div id="html_91c286d6a896a5bac926935044684cf3" style="width: 100.0%; height: 100.0%;">Eethuis Turnhout<br>Avg Price: €10.00</div>`)[0];
+                popup_fe2fcca2ab20dc995032b99de7afba7b.setContent(html_91c286d6a896a5bac926935044684cf3);
+            
+        
+
+        marker_c33924c9727b1029032d1439d8748d78.bindPopup(popup_fe2fcca2ab20dc995032b99de7afba7b)
+        ;
+
+        
+    
+    
+            var marker_5dfc5321984f273a6ccd13e940be17c1 = L.marker(
+                [50.8465692, 5.6941176],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_c8ff26abaa0be85b3a0f06738c8bbf9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0953768d6d92ffb0996334ac6e55c39 = $(`<div id="html_c0953768d6d92ffb0996334ac6e55c39" style="width: 100.0%; height: 100.0%;">Ada Grill & Burger<br>Avg Price: €11.50</div>`)[0];
+                popup_c8ff26abaa0be85b3a0f06738c8bbf9e.setContent(html_c0953768d6d92ffb0996334ac6e55c39);
+            
+        
+
+        marker_5dfc5321984f273a6ccd13e940be17c1.bindPopup(popup_c8ff26abaa0be85b3a0f06738c8bbf9e)
+        ;
+
+        
+    
+    
+            var marker_dce0abab21b1ca000ac7468bffea1868 = L.marker(
+                [51.250926, 5.5421495],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_deb5ed93a9ec2ab75529702d7237f1ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6eb31b78345d2e6ff88e0e56b082a701 = $(`<div id="html_6eb31b78345d2e6ff88e0e56b082a701" style="width: 100.0%; height: 100.0%;">Adak Kebab<br>Avg Price: €12.50</div>`)[0];
+                popup_deb5ed93a9ec2ab75529702d7237f1ab.setContent(html_6eb31b78345d2e6ff88e0e56b082a701);
+            
+        
+
+        marker_dce0abab21b1ca000ac7468bffea1868.bindPopup(popup_deb5ed93a9ec2ab75529702d7237f1ab)
+        ;
+
+        
+    
+    
+            var marker_b8161d198a077341581d8fd046791de8 = L.marker(
+                [51.0290669, 4.4883672],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ecb423758ef44e5af8d68cc636a16d47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd4b5e33a56d05a37b44796e88e643f0 = $(`<div id="html_dd4b5e33a56d05a37b44796e88e643f0" style="width: 100.0%; height: 100.0%;">Adana Kebab<br>Avg Price: €13.00</div>`)[0];
+                popup_ecb423758ef44e5af8d68cc636a16d47.setContent(html_dd4b5e33a56d05a37b44796e88e643f0);
+            
+        
+
+        marker_b8161d198a077341581d8fd046791de8.bindPopup(popup_ecb423758ef44e5af8d68cc636a16d47)
+        ;
+
+        
+    
+    
+            var marker_48e182caa65f242d92be970c2fc8c88b = L.marker(
+                [51.0598431, 3.7250112],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_a327e3155c93eb36a2fb55ac7808a660 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ee3e4286eecadf1168160713b9708f6 = $(`<div id="html_8ee3e4286eecadf1168160713b9708f6" style="width: 100.0%; height: 100.0%;">Akdeniz<br>Avg Price: €18.00</div>`)[0];
+                popup_a327e3155c93eb36a2fb55ac7808a660.setContent(html_8ee3e4286eecadf1168160713b9708f6);
+            
+        
+
+        marker_48e182caa65f242d92be970c2fc8c88b.bindPopup(popup_a327e3155c93eb36a2fb55ac7808a660)
+        ;
+
+        
+    
+    
+            var marker_5463c983297376f2c0f97c7ebe82bf28 = L.marker(
+                [50.9115883, 4.1956724],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_a3f6f7a12cb62c74206535947b3c9f66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_072e8de9823e16dc5b4bee054b65f45f = $(`<div id="html_072e8de9823e16dc5b4bee054b65f45f" style="width: 100.0%; height: 100.0%;">Alex Grill House<br>Avg Price: €15.00</div>`)[0];
+                popup_a3f6f7a12cb62c74206535947b3c9f66.setContent(html_072e8de9823e16dc5b4bee054b65f45f);
+            
+        
+
+        marker_5463c983297376f2c0f97c7ebe82bf28.bindPopup(popup_a3f6f7a12cb62c74206535947b3c9f66)
+        ;
+
+        
+    
+    
+            var marker_5899296e02b57a568d9d5a4e58056eb2 = L.marker(
+                [50.9802545, 5.4919544],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ce2beea2b3972a739326dd03d94d8e5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2442e34b82d50a6d679f9a2e65821dc5 = $(`<div id="html_2442e34b82d50a6d679f9a2e65821dc5" style="width: 100.0%; height: 100.0%;">Ali Baba Vennestraat<br>Avg Price: €12.20</div>`)[0];
+                popup_ce2beea2b3972a739326dd03d94d8e5e.setContent(html_2442e34b82d50a6d679f9a2e65821dc5);
+            
+        
+
+        marker_5899296e02b57a568d9d5a4e58056eb2.bindPopup(popup_ce2beea2b3972a739326dd03d94d8e5e)
+        ;
+
+        
+    
+    
+            var marker_dcdcec7f50ec7c71a2f78a421ea73a9a = L.marker(
+                [50.9935263, 5.5186807],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_62b75d880eebb86906b53e2457a832a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a28b64fc97e3e8a2502cd0d698b3abb9 = $(`<div id="html_a28b64fc97e3e8a2502cd0d698b3abb9" style="width: 100.0%; height: 100.0%;">Ali Baba Stalenstraat<br>Avg Price: €12.05</div>`)[0];
+                popup_62b75d880eebb86906b53e2457a832a9.setContent(html_a28b64fc97e3e8a2502cd0d698b3abb9);
+            
+        
+
+        marker_dcdcec7f50ec7c71a2f78a421ea73a9a.bindPopup(popup_62b75d880eebb86906b53e2457a832a9)
+        ;
+
+        
+    
+    
+            var marker_ca60034b67fde5ec638dfbe0a758ad77 = L.marker(
+                [51.0185386, 4.4824376],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_32b6772c75d1e7a80d92c7a1ed7f2ae4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e04542280ddcdce8f2c0544afadbde7d = $(`<div id="html_e04542280ddcdce8f2c0544afadbde7d" style="width: 100.0%; height: 100.0%;">Ali Baba<br>Avg Price: €14.50</div>`)[0];
+                popup_32b6772c75d1e7a80d92c7a1ed7f2ae4.setContent(html_e04542280ddcdce8f2c0544afadbde7d);
+            
+        
+
+        marker_ca60034b67fde5ec638dfbe0a758ad77.bindPopup(popup_32b6772c75d1e7a80d92c7a1ed7f2ae4)
+        ;
+
+        
+    
+    
+            var marker_848988650fe345a28bf19a9710afaf06 = L.marker(
+                [51.3015694, 4.5703876],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_96b8d5db8c442c09a64a32da0a184357 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_509a908a11de397530c6f0c9a01d51d9 = $(`<div id="html_509a908a11de397530c6f0c9a01d51d9" style="width: 100.0%; height: 100.0%;">Ali Pizzahuis<br>Avg Price: €8.14</div>`)[0];
+                popup_96b8d5db8c442c09a64a32da0a184357.setContent(html_509a908a11de397530c6f0c9a01d51d9);
+            
+        
+
+        marker_848988650fe345a28bf19a9710afaf06.bindPopup(popup_96b8d5db8c442c09a64a32da0a184357)
+        ;
+
+        
+    
+    
+            var marker_8a8478fd2b341059dad82fada069d512 = L.marker(
+                [51.0864141, 4.3285395],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_c2289b4ba44e557d339cefef59321350 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46455ba82367e6bf96b9efaeb86f8c51 = $(`<div id="html_46455ba82367e6bf96b9efaeb86f8c51" style="width: 100.0%; height: 100.0%;">Ali's Eethuis<br>Avg Price: €9.38</div>`)[0];
+                popup_c2289b4ba44e557d339cefef59321350.setContent(html_46455ba82367e6bf96b9efaeb86f8c51);
+            
+        
+
+        marker_8a8478fd2b341059dad82fada069d512.bindPopup(popup_c2289b4ba44e557d339cefef59321350)
+        ;
+
+        
+    
+    
+            var marker_664d9725a1480e95423affde01d68d55 = L.marker(
+                [51.2514972, 5.5466132],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_4cde759aae5542559bf9c9925c306f97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11eaa2093a9939a2bbe06dc2c0dc7e8e = $(`<div id="html_11eaa2093a9939a2bbe06dc2c0dc7e8e" style="width: 100.0%; height: 100.0%;">Anatolia 23<br>Avg Price: €12.28</div>`)[0];
+                popup_4cde759aae5542559bf9c9925c306f97.setContent(html_11eaa2093a9939a2bbe06dc2c0dc7e8e);
+            
+        
+
+        marker_664d9725a1480e95423affde01d68d55.bindPopup(popup_4cde759aae5542559bf9c9925c306f97)
+        ;
+
+        
+    
+    
+            var marker_239eb2dae1c056f3ffeb479bd1d87cd3 = L.marker(
+                [50.986765, 5.1927006],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_2db73cbee84733f85cafd17ad61d128d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13df14abd4f3d46c853878eb59174fe6 = $(`<div id="html_13df14abd4f3d46c853878eb59174fe6" style="width: 100.0%; height: 100.0%;">Anatolia<br>Avg Price: €10.75</div>`)[0];
+                popup_2db73cbee84733f85cafd17ad61d128d.setContent(html_13df14abd4f3d46c853878eb59174fe6);
+            
+        
+
+        marker_239eb2dae1c056f3ffeb479bd1d87cd3.bindPopup(popup_2db73cbee84733f85cafd17ad61d128d)
+        ;
+
+        
+    
+    
+            var marker_2bac65f460fd155cf69ddf52181f73e7 = L.marker(
+                [51.0673158, 5.0911336],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_628c418fb35c6935a246c5258e11ad2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_648a1ee7bf29c6f24c394459c97a2d4e = $(`<div id="html_648a1ee7bf29c6f24c394459c97a2d4e" style="width: 100.0%; height: 100.0%;">Anatolian Kebap<br>Avg Price: €11.83</div>`)[0];
+                popup_628c418fb35c6935a246c5258e11ad2b.setContent(html_648a1ee7bf29c6f24c394459c97a2d4e);
+            
+        
+
+        marker_2bac65f460fd155cf69ddf52181f73e7.bindPopup(popup_628c418fb35c6935a246c5258e11ad2b)
+        ;
+
+        
+    
+    
+            var marker_7d2ab2fd859893d4895164a61c0faae7 = L.marker(
+                [51.0217628, 4.1140786],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ef5ab92402d0858447b04e8d8931064e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5757a36e372e8c081fb26da289b80217 = $(`<div id="html_5757a36e372e8c081fb26da289b80217" style="width: 100.0%; height: 100.0%;">Antalya Pita<br>Avg Price: €15.23</div>`)[0];
+                popup_ef5ab92402d0858447b04e8d8931064e.setContent(html_5757a36e372e8c081fb26da289b80217);
+            
+        
+
+        marker_7d2ab2fd859893d4895164a61c0faae7.bindPopup(popup_ef5ab92402d0858447b04e8d8931064e)
+        ;
+
+        
+    
+    
+            var marker_7acef714a429305368f7b0c41e35914f = L.marker(
+                [51.3915605, 4.4668839],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_0c4ea303763d4149f67fd53280e6c607 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48840950df29c7dd3ba8480f5f218816 = $(`<div id="html_48840950df29c7dd3ba8480f5f218816" style="width: 100.0%; height: 100.0%;">Eetcafe Antep<br>Avg Price: €15.25</div>`)[0];
+                popup_0c4ea303763d4149f67fd53280e6c607.setContent(html_48840950df29c7dd3ba8480f5f218816);
+            
+        
+
+        marker_7acef714a429305368f7b0c41e35914f.bindPopup(popup_0c4ea303763d4149f67fd53280e6c607)
+        ;
+
+        
+    
+    
+            var marker_4860a8d96b26aacbc1bfa5452c7578b5 = L.marker(
+                [51.1710139, 5.1663912],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_790ad0e0d2e3855efd8e87c6caca5aba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90742283027ebb32b1dd2f19c5978c61 = $(`<div id="html_90742283027ebb32b1dd2f19c5978c61" style="width: 100.0%; height: 100.0%;">Balen'se Kebap<br>Avg Price: €11.07</div>`)[0];
+                popup_790ad0e0d2e3855efd8e87c6caca5aba.setContent(html_90742283027ebb32b1dd2f19c5978c61);
+            
+        
+
+        marker_4860a8d96b26aacbc1bfa5452c7578b5.bindPopup(popup_790ad0e0d2e3855efd8e87c6caca5aba)
+        ;
+
+        
+    
+    
+            var marker_992db2269f3c36a4b9edadfe23f3eb8b = L.marker(
+                [51.1953055, 5.4032187],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_99d5eac3c0c0fdacb68f611fff174a6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e64e57b6c8df80493ef146f8dea23033 = $(`<div id="html_e64e57b6c8df80493ef146f8dea23033" style="width: 100.0%; height: 100.0%;">LindelBaskent<br>Avg Price: €12.09</div>`)[0];
+                popup_99d5eac3c0c0fdacb68f611fff174a6e.setContent(html_e64e57b6c8df80493ef146f8dea23033);
+            
+        
+
+        marker_992db2269f3c36a4b9edadfe23f3eb8b.bindPopup(popup_99d5eac3c0c0fdacb68f611fff174a6e)
+        ;
+
+        
+    
+    
+            var marker_64ceb7b7f78c9910046dd47e6d7ec5b1 = L.marker(
+                [51.028309, 4.9815332],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_64b7e3c1d748fe762e123d4d5ea9d3c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d6193e2f01f563bb7c7a6c359a83752 = $(`<div id="html_8d6193e2f01f563bb7c7a6c359a83752" style="width: 100.0%; height: 100.0%;">Baskent Averbode<br>Avg Price: €13.00</div>`)[0];
+                popup_64b7e3c1d748fe762e123d4d5ea9d3c2.setContent(html_8d6193e2f01f563bb7c7a6c359a83752);
+            
+        
+
+        marker_64ceb7b7f78c9910046dd47e6d7ec5b1.bindPopup(popup_64b7e3c1d748fe762e123d4d5ea9d3c2)
+        ;
+
+        
+    
+    
+            var marker_756f3a33d619e92920bc0a391b049833 = L.marker(
+                [51.1728415, 5.1696578],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_4652ca67b1656b11c54d95d0ad132c24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8b641663fe66cf446ade8deb8097f71 = $(`<div id="html_c8b641663fe66cf446ade8deb8097f71" style="width: 100.0%; height: 100.0%;">Baskent Balen<br>Avg Price: €11.12</div>`)[0];
+                popup_4652ca67b1656b11c54d95d0ad132c24.setContent(html_c8b641663fe66cf446ade8deb8097f71);
+            
+        
+
+        marker_756f3a33d619e92920bc0a391b049833.bindPopup(popup_4652ca67b1656b11c54d95d0ad132c24)
+        ;
+
+        
+    
+    
+            var marker_e02b678e9cfde7a8d1d72f7b198f3fb8 = L.marker(
+                [51.1652144, 4.6819769],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_21554acafa0b26a534fe54d90c0393f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3670306c7647b31011c6271d382c3cde = $(`<div id="html_3670306c7647b31011c6271d382c3cde" style="width: 100.0%; height: 100.0%;">Baskent Nijlen<br>Avg Price: €12.72</div>`)[0];
+                popup_21554acafa0b26a534fe54d90c0393f2.setContent(html_3670306c7647b31011c6271d382c3cde);
+            
+        
+
+        marker_e02b678e9cfde7a8d1d72f7b198f3fb8.bindPopup(popup_21554acafa0b26a534fe54d90c0393f2)
+        ;
+
+        
+    
+    
+            var marker_a9a0b868e669083483f50c467cf1d6c4 = L.marker(
+                [51.1210878, 5.0539219],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_db416deb51415c9c2c8b386771d74760 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cc2bf2af206c52d96223918938e2a29 = $(`<div id="html_4cc2bf2af206c52d96223918938e2a29" style="width: 100.0%; height: 100.0%;">Baskent Meerhout<br>Avg Price: €11.33</div>`)[0];
+                popup_db416deb51415c9c2c8b386771d74760.setContent(html_4cc2bf2af206c52d96223918938e2a29);
+            
+        
+
+        marker_a9a0b868e669083483f50c467cf1d6c4.bindPopup(popup_db416deb51415c9c2c8b386771d74760)
+        ;
+
+        
+    
+    
+            var marker_89377a544bea03ebac665ed6ffb116a2 = L.marker(
+                [51.1299453, 5.4185639],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_20f73fb65d62ece6f261f4d376d5dab4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e7ade18f9b626ad5063f149a02b0fc7 = $(`<div id="html_0e7ade18f9b626ad5063f149a02b0fc7" style="width: 100.0%; height: 100.0%;">Baskent Peer<br>Avg Price: €15.50</div>`)[0];
+                popup_20f73fb65d62ece6f261f4d376d5dab4.setContent(html_0e7ade18f9b626ad5063f149a02b0fc7);
+            
+        
+
+        marker_89377a544bea03ebac665ed6ffb116a2.bindPopup(popup_20f73fb65d62ece6f261f4d376d5dab4)
+        ;
+
+        
+    
+    
+            var marker_18a5018bbac793573cf2685c22920e32 = L.marker(
+                [51.0673327, 5.0875676],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_f3cfd6088c7a6494be976316b56afb14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_483c78a6c081a8ffe89c6bb2af1573b3 = $(`<div id="html_483c78a6c081a8ffe89c6bb2af1573b3" style="width: 100.0%; height: 100.0%;">Baskent Tessenderlo<br>Avg Price: €10.04</div>`)[0];
+                popup_f3cfd6088c7a6494be976316b56afb14.setContent(html_483c78a6c081a8ffe89c6bb2af1573b3);
+            
+        
+
+        marker_18a5018bbac793573cf2685c22920e32.bindPopup(popup_f3cfd6088c7a6494be976316b56afb14)
+        ;
+
+        
+    
+    
+            var marker_27e3ff47c34fc45207208c744a0e3239 = L.marker(
+                [50.7710849, 3.8828792],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_bd4e6cebbf802bd7d50297e8c7297b1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98eb1d5b65aca3368345759885d9df5a = $(`<div id="html_98eb1d5b65aca3368345759885d9df5a" style="width: 100.0%; height: 100.0%;">Best Grill<br>Avg Price: €12.00</div>`)[0];
+                popup_bd4e6cebbf802bd7d50297e8c7297b1f.setContent(html_98eb1d5b65aca3368345759885d9df5a);
+            
+        
+
+        marker_27e3ff47c34fc45207208c744a0e3239.bindPopup(popup_bd4e6cebbf802bd7d50297e8c7297b1f)
+        ;
+
+        
+    
+    
+            var marker_f86ed145c8de247351d60576eab67cc5 = L.marker(
+                [50.8578274, 4.3697417],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_6429919b585c442f4261346fcc1ac3cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1f7efabece3c9a0023d205ada0d13b8 = $(`<div id="html_c1f7efabece3c9a0023d205ada0d13b8" style="width: 100.0%; height: 100.0%;">Beyranet<br>Avg Price: €23.00</div>`)[0];
+                popup_6429919b585c442f4261346fcc1ac3cc.setContent(html_c1f7efabece3c9a0023d205ada0d13b8);
+            
+        
+
+        marker_f86ed145c8de247351d60576eab67cc5.bindPopup(popup_6429919b585c442f4261346fcc1ac3cc)
+        ;
+
+        
+    
+    
+            var marker_f404fba6e08ae494eaad72f75aa280b8 = L.marker(
+                [51.2245014, 4.4167564],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ff941cc4e48d32d4b1dc31e61ff1b289 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afdf5c667a756abe625b828e740af9e6 = $(`<div id="html_afdf5c667a756abe625b828e740af9e6" style="width: 100.0%; height: 100.0%;">Beyzade<br>Avg Price: €16.20</div>`)[0];
+                popup_ff941cc4e48d32d4b1dc31e61ff1b289.setContent(html_afdf5c667a756abe625b828e740af9e6);
+            
+        
+
+        marker_f404fba6e08ae494eaad72f75aa280b8.bindPopup(popup_ff941cc4e48d32d4b1dc31e61ff1b289)
+        ;
+
+        
+    
+    
+            var marker_2c10015b7d1f23e246c0373863d86599 = L.marker(
+                [50.988972, 4.840586],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_38ae2c957e6a5db1bccb29e40d269292 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc1e2edf6a5423512f74c325de2b43a7 = $(`<div id="html_bc1e2edf6a5423512f74c325de2b43a7" style="width: 100.0%; height: 100.0%;">Efes bij Carlos Niko<br>Avg Price: €10.41</div>`)[0];
+                popup_38ae2c957e6a5db1bccb29e40d269292.setContent(html_bc1e2edf6a5423512f74c325de2b43a7);
+            
+        
+
+        marker_2c10015b7d1f23e246c0373863d86599.bindPopup(popup_38ae2c957e6a5db1bccb29e40d269292)
+        ;
+
+        
+    
+    
+            var marker_7f3125e72feb121ce55fcf3714606ab2 = L.marker(
+                [51.1383749, 4.3776236],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_3f06ca3b8bca22b3b24c6a5df29824ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f2525e4664a3af41795df6dd6f09ced = $(`<div id="html_5f2525e4664a3af41795df6dd6f09ced" style="width: 100.0%; height: 100.0%;">Binx<br>Avg Price: €12.00</div>`)[0];
+                popup_3f06ca3b8bca22b3b24c6a5df29824ac.setContent(html_5f2525e4664a3af41795df6dd6f09ced);
+            
+        
+
+        marker_7f3125e72feb121ce55fcf3714606ab2.bindPopup(popup_3f06ca3b8bca22b3b24c6a5df29824ac)
+        ;
+
+        
+    
+    
+            var marker_179b93f0d76d4018663b9ce814ad7c2b = L.marker(
+                [50.8247816, 4.2975821],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_7688524046552558b48c12828e2a3e60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b83b6e7f6cf98a520a78ba02098e53ec = $(`<div id="html_b83b6e7f6cf98a520a78ba02098e53ec" style="width: 100.0%; height: 100.0%;">Bosphore Grill<br>Avg Price: €15.83</div>`)[0];
+                popup_7688524046552558b48c12828e2a3e60.setContent(html_b83b6e7f6cf98a520a78ba02098e53ec);
+            
+        
+
+        marker_179b93f0d76d4018663b9ce814ad7c2b.bindPopup(popup_7688524046552558b48c12828e2a3e60)
+        ;
+
+        
+    
+    
+            var marker_35855ce71e08293525fe7349b14ad44e = L.marker(
+                [50.8753181, 5.3082716],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_d3e77576d9efe41c3a886de1c2760951 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eed40022cc277b113aa4054814b4b53e = $(`<div id="html_eed40022cc277b113aa4054814b4b53e" style="width: 100.0%; height: 100.0%;">Bosphorus<br>Avg Price: €10.56</div>`)[0];
+                popup_d3e77576d9efe41c3a886de1c2760951.setContent(html_eed40022cc277b113aa4054814b4b53e);
+            
+        
+
+        marker_35855ce71e08293525fe7349b14ad44e.bindPopup(popup_d3e77576d9efe41c3a886de1c2760951)
+        ;
+
+        
+    
+    
+            var marker_4328d79ba54cb836cb36e4cbe6c289e0 = L.marker(
+                [50.8897114, 4.5524114],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_a88c0dfd0118a28ea847af9adcb9d8e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9479995d7c4a0a3c2e841de9dcb3d735 = $(`<div id="html_9479995d7c4a0a3c2e841de9dcb3d735" style="width: 100.0%; height: 100.0%;">Boston Pizza & Burgers<br>Avg Price: €11.50</div>`)[0];
+                popup_a88c0dfd0118a28ea847af9adcb9d8e7.setContent(html_9479995d7c4a0a3c2e841de9dcb3d735);
+            
+        
+
+        marker_4328d79ba54cb836cb36e4cbe6c289e0.bindPopup(popup_a88c0dfd0118a28ea847af9adcb9d8e7)
+        ;
+
+        
+    
+    
+            var marker_cb02cd40d920c057bc9f5fc8fbb0501b = L.marker(
+                [50.9672032, 3.9770103],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_234ca96dd026cca5c79c17535552b08c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e1fd9dd48c9b3e41cf3e4518bc7875e = $(`<div id="html_2e1fd9dd48c9b3e41cf3e4518bc7875e" style="width: 100.0%; height: 100.0%;">Boston Pizza<br>Avg Price: €13.00</div>`)[0];
+                popup_234ca96dd026cca5c79c17535552b08c.setContent(html_2e1fd9dd48c9b3e41cf3e4518bc7875e);
+            
+        
+
+        marker_cb02cd40d920c057bc9f5fc8fbb0501b.bindPopup(popup_234ca96dd026cca5c79c17535552b08c)
+        ;
+
+        
+    
+    
+            var marker_12def9259bdb967352f1bddf2d84dabc = L.marker(
+                [50.9278947, 4.4337607],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ecc122c82db8b9f0a6fac514ecafa81d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a2c3807f1ab958eab49cca9465e1bfd = $(`<div id="html_0a2c3807f1ab958eab49cca9465e1bfd" style="width: 100.0%; height: 100.0%;">Can Pizzeria<br>Avg Price: €16.00</div>`)[0];
+                popup_ecc122c82db8b9f0a6fac514ecafa81d.setContent(html_0a2c3807f1ab958eab49cca9465e1bfd);
+            
+        
+
+        marker_12def9259bdb967352f1bddf2d84dabc.bindPopup(popup_ecc122c82db8b9f0a6fac514ecafa81d)
+        ;
+
+        
+    
+    
+            var marker_7c5ee6b15660e595cf414a1eb2452a10 = L.marker(
+                [50.9658811, 5.5022231],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_412dc95e3de593e0b1b47fc6ecd7e2b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fed14dfc217e0cd958e38383cc0e0cc2 = $(`<div id="html_fed14dfc217e0cd958e38383cc0e0cc2" style="width: 100.0%; height: 100.0%;">Cappadocië<br>Avg Price: €11.25</div>`)[0];
+                popup_412dc95e3de593e0b1b47fc6ecd7e2b9.setContent(html_fed14dfc217e0cd958e38383cc0e0cc2);
+            
+        
+
+        marker_7c5ee6b15660e595cf414a1eb2452a10.bindPopup(popup_412dc95e3de593e0b1b47fc6ecd7e2b9)
+        ;
+
+        
+    
+    
+            var marker_a21a8fed76885179c859ea1cb310c91f = L.marker(
+                [51.1410312, 4.8398966],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_7dfb6ac23695582420ea486ca9a2f9d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fca8814a407747f89d45e7fee7c47027 = $(`<div id="html_fca8814a407747f89d45e7fee7c47027" style="width: 100.0%; height: 100.0%;">Cheff Kebab<br>Avg Price: €15.75</div>`)[0];
+                popup_7dfb6ac23695582420ea486ca9a2f9d8.setContent(html_fca8814a407747f89d45e7fee7c47027);
+            
+        
+
+        marker_a21a8fed76885179c859ea1cb310c91f.bindPopup(popup_7dfb6ac23695582420ea486ca9a2f9d8)
+        ;
+
+        
+    
+    
+            var marker_db0a7bf26164986e2a88566492233128 = L.marker(
+                [50.9648739, 5.504603],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ffccba46d0936c5188083428d8cc75ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2dda5b89a9769fccb0623fc95e0d7fb = $(`<div id="html_a2dda5b89a9769fccb0623fc95e0d7fb" style="width: 100.0%; height: 100.0%;">Chitir Chicken<br>Avg Price: €13.40</div>`)[0];
+                popup_ffccba46d0936c5188083428d8cc75ea.setContent(html_a2dda5b89a9769fccb0623fc95e0d7fb);
+            
+        
+
+        marker_db0a7bf26164986e2a88566492233128.bindPopup(popup_ffccba46d0936c5188083428d8cc75ea)
+        ;
+
+        
+    
+    
+            var marker_0147f24dc165976e15d14fa85c557529 = L.marker(
+                [50.844621, 4.437103],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_5139f9dc4c2aa6ffba51007fab16886f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_710df6bfb35c062b1093b8bfea9bc4d8 = $(`<div id="html_710df6bfb35c062b1093b8bfea9bc4d8" style="width: 100.0%; height: 100.0%;">Chitir Chicken<br>Avg Price: €13.57</div>`)[0];
+                popup_5139f9dc4c2aa6ffba51007fab16886f.setContent(html_710df6bfb35c062b1093b8bfea9bc4d8);
+            
+        
+
+        marker_0147f24dc165976e15d14fa85c557529.bindPopup(popup_5139f9dc4c2aa6ffba51007fab16886f)
+        ;
+
+        
+    
+    
+            var marker_07bb57f416399c0c8515d1650a307b21 = L.marker(
+                [50.9811288, 5.4923153],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_614e1fe90e0df4e88a63b038fbfb5152 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5747bd51f3826ea33160da7d05157b89 = $(`<div id="html_5747bd51f3826ea33160da7d05157b89" style="width: 100.0%; height: 100.0%;">Frituur Cité<br>Avg Price: €11.25</div>`)[0];
+                popup_614e1fe90e0df4e88a63b038fbfb5152.setContent(html_5747bd51f3826ea33160da7d05157b89);
+            
+        
+
+        marker_07bb57f416399c0c8515d1650a307b21.bindPopup(popup_614e1fe90e0df4e88a63b038fbfb5152)
+        ;
+
+        
+    
+    
+            var marker_42c4893b8629782dad7d1a5feddcc91a = L.marker(
+                [51.1666241, 4.1340781],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_cac5bb9ad8e8c62ad1b452152e0249fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_797161cdf8b2e818eeaa820d1006b13b = $(`<div id="html_797161cdf8b2e818eeaa820d1006b13b" style="width: 100.0%; height: 100.0%;">Ciz Bizz Grill<br>Avg Price: €18.00</div>`)[0];
+                popup_cac5bb9ad8e8c62ad1b452152e0249fc.setContent(html_797161cdf8b2e818eeaa820d1006b13b);
+            
+        
+
+        marker_42c4893b8629782dad7d1a5feddcc91a.bindPopup(popup_cac5bb9ad8e8c62ad1b452152e0249fc)
+        ;
+
+        
+    
+    
+            var marker_f91b5cdb23244d2b8f49cc8260521dd4 = L.marker(
+                [51.227137, 4.4502062],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_d30be2f56d2e762d99e215998e6f8f8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1479466f4fb23741563b4bb6d9eea33 = $(`<div id="html_c1479466f4fb23741563b4bb6d9eea33" style="width: 100.0%; height: 100.0%;">Cizbiz Donerland<br>Avg Price: €12.99</div>`)[0];
+                popup_d30be2f56d2e762d99e215998e6f8f8e.setContent(html_c1479466f4fb23741563b4bb6d9eea33);
+            
+        
+
+        marker_f91b5cdb23244d2b8f49cc8260521dd4.bindPopup(popup_d30be2f56d2e762d99e215998e6f8f8e)
+        ;
+
+        
+    
+    
+            var marker_26810143c17435b648e67e8109a44d2f = L.marker(
+                [51.0372686, 5.3310157],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_87413c92e01aa63a4aa377412ab37c5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d169c150532adacbd4ba55a3e8c3e839 = $(`<div id="html_d169c150532adacbd4ba55a3e8c3e839" style="width: 100.0%; height: 100.0%;">De Mijn Kebab<br>Avg Price: €11.64</div>`)[0];
+                popup_87413c92e01aa63a4aa377412ab37c5f.setContent(html_d169c150532adacbd4ba55a3e8c3e839);
+            
+        
+
+        marker_26810143c17435b648e67e8109a44d2f.bindPopup(popup_87413c92e01aa63a4aa377412ab37c5f)
+        ;
+
+        
+    
+    
+            var marker_c47b4639a442cc4cd10a145faa193c03 = L.marker(
+                [50.8920932, 4.0721603],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_9def0e3d9903d1e1b20fa5f380e61082 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f0a4d612272a7d242510296155044ff = $(`<div id="html_9f0a4d612272a7d242510296155044ff" style="width: 100.0%; height: 100.0%;">Best of Kebap & Pizza Dender<br>Avg Price: €8.90</div>`)[0];
+                popup_9def0e3d9903d1e1b20fa5f380e61082.setContent(html_9f0a4d612272a7d242510296155044ff);
+            
+        
+
+        marker_c47b4639a442cc4cd10a145faa193c03.bindPopup(popup_9def0e3d9903d1e1b20fa5f380e61082)
+        ;
+
+        
+    
+    
+            var marker_70ddbed22a4b566d25f21b16e2e545c6 = L.marker(
+                [51.0698019, 5.0882976],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ce14f26163f11567366a709817d30fc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cfde0681545aebd348469b70ee330ff = $(`<div id="html_8cfde0681545aebd348469b70ee330ff" style="width: 100.0%; height: 100.0%;">Dennis Kebap<br>Avg Price: €11.54</div>`)[0];
+                popup_ce14f26163f11567366a709817d30fc9.setContent(html_8cfde0681545aebd348469b70ee330ff);
+            
+        
+
+        marker_70ddbed22a4b566d25f21b16e2e545c6.bindPopup(popup_ce14f26163f11567366a709817d30fc9)
+        ;
+
+        
+    
+    
+            var marker_5b7dcb868b9c394f92bfc44864c708c0 = L.marker(
+                [51.0763479, 4.721808],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ab650e1bb00e33ce9b8dbc6d5385a3f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a23cd37b84184283083883008d4ef05 = $(`<div id="html_0a23cd37b84184283083883008d4ef05" style="width: 100.0%; height: 100.0%;">Ali Baba<br>Avg Price: €14.00</div>`)[0];
+                popup_ab650e1bb00e33ce9b8dbc6d5385a3f0.setContent(html_0a23cd37b84184283083883008d4ef05);
+            
+        
+
+        marker_5b7dcb868b9c394f92bfc44864c708c0.bindPopup(popup_ab650e1bb00e33ce9b8dbc6d5385a3f0)
+        ;
+
+        
+    
+    
+            var marker_5e90700a1ff858e869b3f0f0f8cd4cdd = L.marker(
+                [50.8067955, 5.2858685],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_c4f80f5ae4a012d3fb4aabb4e268cb46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_147345c5f16e983a6b310deafed33cec = $(`<div id="html_147345c5f16e983a6b310deafed33cec" style="width: 100.0%; height: 100.0%;">Döner Kebab Anatolia<br>Avg Price: €10.54</div>`)[0];
+                popup_c4f80f5ae4a012d3fb4aabb4e268cb46.setContent(html_147345c5f16e983a6b310deafed33cec);
+            
+        
+
+        marker_5e90700a1ff858e869b3f0f0f8cd4cdd.bindPopup(popup_c4f80f5ae4a012d3fb4aabb4e268cb46)
+        ;
+
+        
+    
+    
+            var marker_4e0050cfdc37de834e019b34ef60e75e = L.marker(
+                [51.252831, 5.106028],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_7705f2d87a4a3f7637708a3d00b9f98d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74a99ce8ed39073be5e9aef2751b5190 = $(`<div id="html_74a99ce8ed39073be5e9aef2751b5190" style="width: 100.0%; height: 100.0%;">Dr. Grill<br>Avg Price: €12.65</div>`)[0];
+                popup_7705f2d87a4a3f7637708a3d00b9f98d.setContent(html_74a99ce8ed39073be5e9aef2751b5190);
+            
+        
+
+        marker_4e0050cfdc37de834e019b34ef60e75e.bindPopup(popup_7705f2d87a4a3f7637708a3d00b9f98d)
+        ;
+
+        
+    
+    
+            var marker_a99de8ba2e8ed30564be00eafe92866e = L.marker(
+                [51.0297439, 5.2592668],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_971ed618b8068218cf1fcf71960c66b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43ee920221eee4b8c3693d05f64b8e69 = $(`<div id="html_43ee920221eee4b8c3693d05f64b8e69" style="width: 100.0%; height: 100.0%;">Eatpoint<br>Avg Price: €11.62</div>`)[0];
+                popup_971ed618b8068218cf1fcf71960c66b9.setContent(html_43ee920221eee4b8c3693d05f64b8e69);
+            
+        
+
+        marker_a99de8ba2e8ed30564be00eafe92866e.bindPopup(popup_971ed618b8068218cf1fcf71960c66b9)
+        ;
+
+        
+    
+    
+            var marker_4edaf9227d3fbabe26f54e11a08a94df = L.marker(
+                [50.8904648, 5.653412],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_bf7686e1b8ca2ea2c4433c5858ceb62b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a0a71d847a2c22e50c1a58140e95ee7 = $(`<div id="html_7a0a71d847a2c22e50c1a58140e95ee7" style="width: 100.0%; height: 100.0%;">Eethuis Bidos<br>Avg Price: €12.47</div>`)[0];
+                popup_bf7686e1b8ca2ea2c4433c5858ceb62b.setContent(html_7a0a71d847a2c22e50c1a58140e95ee7);
+            
+        
+
+        marker_4edaf9227d3fbabe26f54e11a08a94df.bindPopup(popup_bf7686e1b8ca2ea2c4433c5858ceb62b)
+        ;
+
+        
+    
+    
+            var marker_3d90ab2dfb6e27f242a5042ec7edb213 = L.marker(
+                [51.0526079, 4.7287392],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_1dfc41d16dd45eedde0061aae0922e71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac23fa5f95ab5798e816fb03ab197493 = $(`<div id="html_ac23fa5f95ab5798e816fb03ab197493" style="width: 100.0%; height: 100.0%;">Eethuis Botan<br>Avg Price: €12.17</div>`)[0];
+                popup_1dfc41d16dd45eedde0061aae0922e71.setContent(html_ac23fa5f95ab5798e816fb03ab197493);
+            
+        
+
+        marker_3d90ab2dfb6e27f242a5042ec7edb213.bindPopup(popup_1dfc41d16dd45eedde0061aae0922e71)
+        ;
+
+        
+    
+    
+            var marker_8ef786a6640646c22e81a648dac5f3f0 = L.marker(
+                [51.0023083, 4.8359204],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_b380b09961a39bd3cae7be5cb094bf72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d393935fcd6c97a2125d8eb7746e148 = $(`<div id="html_1d393935fcd6c97a2125d8eb7746e148" style="width: 100.0%; height: 100.0%;">De Echte Eethuis Carlos<br>Avg Price: €12.50</div>`)[0];
+                popup_b380b09961a39bd3cae7be5cb094bf72.setContent(html_1d393935fcd6c97a2125d8eb7746e148);
+            
+        
+
+        marker_8ef786a6640646c22e81a648dac5f3f0.bindPopup(popup_b380b09961a39bd3cae7be5cb094bf72)
+        ;
+
+        
+    
+    
+            var marker_a4ec49e10163f8e47d1e177cf56e5c3d = L.marker(
+                [51.1811525, 4.8300739],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_4327c4552fc141dfbcbbd95c31b61be9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fee9321cd8945aec3629817ef2f6d3e9 = $(`<div id="html_fee9321cd8945aec3629817ef2f6d3e9" style="width: 100.0%; height: 100.0%;">Eethuis Dalin<br>Avg Price: €12.50</div>`)[0];
+                popup_4327c4552fc141dfbcbbd95c31b61be9.setContent(html_fee9321cd8945aec3629817ef2f6d3e9);
+            
+        
+
+        marker_a4ec49e10163f8e47d1e177cf56e5c3d.bindPopup(popup_4327c4552fc141dfbcbbd95c31b61be9)
+        ;
+
+        
+    
+    
+            var marker_987812aba58572028cb98eef266f92fb = L.marker(
+                [51.219894, 4.2795415],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_70c15569b6f78ae7f8e257b95b98c9ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c082ba33c3341471cbae4c657ff6038e = $(`<div id="html_c082ba33c3341471cbae4c657ff6038e" style="width: 100.0%; height: 100.0%;">Eethuis familia<br>Avg Price: €12.50</div>`)[0];
+                popup_70c15569b6f78ae7f8e257b95b98c9ce.setContent(html_c082ba33c3341471cbae4c657ff6038e);
+            
+        
+
+        marker_987812aba58572028cb98eef266f92fb.bindPopup(popup_70c15569b6f78ae7f8e257b95b98c9ce)
+        ;
+
+        
+    
+    
+            var marker_ca813e227125ac5158af41dfc409b0b2 = L.marker(
+                [51.2317153, 5.4469011],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_8ed42786cb0b39ca90295ca8abbaf24e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08fb8d945d9d7d95cbcd2565d68ac784 = $(`<div id="html_08fb8d945d9d7d95cbcd2565d68ac784" style="width: 100.0%; height: 100.0%;">Eethuis Florya Neerpelt<br>Avg Price: €11.20</div>`)[0];
+                popup_8ed42786cb0b39ca90295ca8abbaf24e.setContent(html_08fb8d945d9d7d95cbcd2565d68ac784);
+            
+        
+
+        marker_ca813e227125ac5158af41dfc409b0b2.bindPopup(popup_8ed42786cb0b39ca90295ca8abbaf24e)
+        ;
+
+        
+    
+    
+            var marker_497b7fe9a07abd887191f43d41f95b4b = L.marker(
+                [51.3141468, 4.9438156],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_48c2cb0ee6c7ddd5fdab3d0aa6e3aa56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfb2fdae5adfa16934e0fd0612d2505f = $(`<div id="html_bfb2fdae5adfa16934e0fd0612d2505f" style="width: 100.0%; height: 100.0%;">Eethuis Istanbul<br>Avg Price: €9.00</div>`)[0];
+                popup_48c2cb0ee6c7ddd5fdab3d0aa6e3aa56.setContent(html_bfb2fdae5adfa16934e0fd0612d2505f);
+            
+        
+
+        marker_497b7fe9a07abd887191f43d41f95b4b.bindPopup(popup_48c2cb0ee6c7ddd5fdab3d0aa6e3aa56)
+        ;
+
+        
+    
+    
+            var marker_a8b14ea89b9b1bedd1beed57f428c407 = L.marker(
+                [50.9426912, 5.2861735],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_596da3b6b0aa25e374b55f8a9ba4d827 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32b9dc01b404298cb54759dcf2a95a21 = $(`<div id="html_32b9dc01b404298cb54759dcf2a95a21" style="width: 100.0%; height: 100.0%;">Eethuis Meyman<br>Avg Price: €12.17</div>`)[0];
+                popup_596da3b6b0aa25e374b55f8a9ba4d827.setContent(html_32b9dc01b404298cb54759dcf2a95a21);
+            
+        
+
+        marker_a8b14ea89b9b1bedd1beed57f428c407.bindPopup(popup_596da3b6b0aa25e374b55f8a9ba4d827)
+        ;
+
+        
+    
+    
+            var marker_9ee1f7808a29d39f34d41398ebbd1c35 = L.marker(
+                [50.8221402, 4.8914991],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_2c737b4d341f374e4454acd38d383e82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edcebd7a37fcb1214303dc16e530e8c7 = $(`<div id="html_edcebd7a37fcb1214303dc16e530e8c7" style="width: 100.0%; height: 100.0%;">Eethuis Musti<br>Avg Price: €9.12</div>`)[0];
+                popup_2c737b4d341f374e4454acd38d383e82.setContent(html_edcebd7a37fcb1214303dc16e530e8c7);
+            
+        
+
+        marker_9ee1f7808a29d39f34d41398ebbd1c35.bindPopup(popup_2c737b4d341f374e4454acd38d383e82)
+        ;
+
+        
+    
+    
+            var marker_a8f8f799633edfe51617e7fa53f342f9 = L.marker(
+                [51.093322, 5.0611908],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_2ef5464d472602abe5af4e789f354213 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08254d9de808662026a827a39a9c384e = $(`<div id="html_08254d9de808662026a827a39a9c384e" style="width: 100.0%; height: 100.0%;">Eethuis Nazar<br>Avg Price: €11.73</div>`)[0];
+                popup_2ef5464d472602abe5af4e789f354213.setContent(html_08254d9de808662026a827a39a9c384e);
+            
+        
+
+        marker_a8f8f799633edfe51617e7fa53f342f9.bindPopup(popup_2ef5464d472602abe5af4e789f354213)
+        ;
+
+        
+    
+    
+            var marker_8c7355b6890e7465b5961e3ff60370f2 = L.marker(
+                [51.0538633, 4.883327],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_f26f57fa8da56e710a4523c4ee549df7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2bbe125688eb6117eb15005108212053 = $(`<div id="html_2bbe125688eb6117eb15005108212053" style="width: 100.0%; height: 100.0%;">Pizza kebap Pasa<br>Avg Price: €11.72</div>`)[0];
+                popup_f26f57fa8da56e710a4523c4ee549df7.setContent(html_2bbe125688eb6117eb15005108212053);
+            
+        
+
+        marker_8c7355b6890e7465b5961e3ff60370f2.bindPopup(popup_f26f57fa8da56e710a4523c4ee549df7)
+        ;
+
+        
+    
+    
+            var marker_16617237c509e027ee923d3efa6ecd0c = L.marker(
+                [50.9477982, 5.344999],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_b8c0a7d657a7cd4a5db1cd1047c5b82c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d56d26a077a8dc7c80be76954831f40 = $(`<div id="html_5d56d26a077a8dc7c80be76954831f40" style="width: 100.0%; height: 100.0%;">Eethuis Star<br>Avg Price: €9.90</div>`)[0];
+                popup_b8c0a7d657a7cd4a5db1cd1047c5b82c.setContent(html_5d56d26a077a8dc7c80be76954831f40);
+            
+        
+
+        marker_16617237c509e027ee923d3efa6ecd0c.bindPopup(popup_b8c0a7d657a7cd4a5db1cd1047c5b82c)
+        ;
+
+        
+    
+    
+            var marker_440d67c2912a859db48b27145861e13d = L.marker(
+                [51.1788669, 4.831852],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_4e3c2d73ce8583f4e58b44f49d727b79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_920c6b9cba7308bc1f1eff2d9fd129ca = $(`<div id="html_920c6b9cba7308bc1f1eff2d9fd129ca" style="width: 100.0%; height: 100.0%;">Eethuis Troja<br>Avg Price: €9.39</div>`)[0];
+                popup_4e3c2d73ce8583f4e58b44f49d727b79.setContent(html_920c6b9cba7308bc1f1eff2d9fd129ca);
+            
+        
+
+        marker_440d67c2912a859db48b27145861e13d.bindPopup(popup_4e3c2d73ce8583f4e58b44f49d727b79)
+        ;
+
+        
+    
+    
+            var marker_569796dc34ffc8a4beec8f2067633a7e = L.marker(
+                [50.9475276, 5.2335178],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_7432df7eb1e80be3cfb0d055d24fbcd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5a2004fdb6d3443955a55f05dbba13e = $(`<div id="html_a5a2004fdb6d3443955a55f05dbba13e" style="width: 100.0%; height: 100.0%;">Eethuis Spalbeek<br>Avg Price: €13.00</div>`)[0];
+                popup_7432df7eb1e80be3cfb0d055d24fbcd6.setContent(html_a5a2004fdb6d3443955a55f05dbba13e);
+            
+        
+
+        marker_569796dc34ffc8a4beec8f2067633a7e.bindPopup(popup_7432df7eb1e80be3cfb0d055d24fbcd6)
+        ;
+
+        
+    
+    
+            var marker_2dba25c97d8c1da8542308f40381f5a8 = L.marker(
+                [50.8901089, 5.1147702],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_2a999e998e7ff028fffb7ea8d28304bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6f221bb93e65238b193017014c4f197 = $(`<div id="html_e6f221bb93e65238b193017014c4f197" style="width: 100.0%; height: 100.0%;">Efes Geetbets<br>Avg Price: €9.00</div>`)[0];
+                popup_2a999e998e7ff028fffb7ea8d28304bf.setContent(html_e6f221bb93e65238b193017014c4f197);
+            
+        
+
+        marker_2dba25c97d8c1da8542308f40381f5a8.bindPopup(popup_2a999e998e7ff028fffb7ea8d28304bf)
+        ;
+
+        
+    
+    
+            var marker_94d267eae438f10e38abe99ae2d7302b = L.marker(
+                [50.9798127, 5.0549133],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_d9791ec06a0a151ce5a965100591d98b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a316724cf8acbb463ebaf6ddfb28e81b = $(`<div id="html_a316724cf8acbb463ebaf6ddfb28e81b" style="width: 100.0%; height: 100.0%;">Efes Grillhouse, Kebab & Pizzeria<br>Avg Price: €10.00</div>`)[0];
+                popup_d9791ec06a0a151ce5a965100591d98b.setContent(html_a316724cf8acbb463ebaf6ddfb28e81b);
+            
+        
+
+        marker_94d267eae438f10e38abe99ae2d7302b.bindPopup(popup_d9791ec06a0a151ce5a965100591d98b)
+        ;
+
+        
+    
+    
+            var marker_d45547aa8bf7a7112a1840bc516583cc = L.marker(
+                [51.1873243, 5.1196074],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_e1c7464759dcaaee58cfb93a10ea3fa1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c7325d5fb3b1d600744114ec53e1b26 = $(`<div id="html_7c7325d5fb3b1d600744114ec53e1b26" style="width: 100.0%; height: 100.0%;">Efes Mol<br>Avg Price: €11.93</div>`)[0];
+                popup_e1c7464759dcaaee58cfb93a10ea3fa1.setContent(html_7c7325d5fb3b1d600744114ec53e1b26);
+            
+        
+
+        marker_d45547aa8bf7a7112a1840bc516583cc.bindPopup(popup_e1c7464759dcaaee58cfb93a10ea3fa1)
+        ;
+
+        
+    
+    
+            var marker_ad4473fdc75710d075f58ab7726d2566 = L.marker(
+                [51.027906, 5.5321544],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_da5f8b39e5ed2ddf8e5ea16f316dc2fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58388f61b63c99025caf3fb79e08db19 = $(`<div id="html_58388f61b63c99025caf3fb79e08db19" style="width: 100.0%; height: 100.0%;">Euro Kebab-Pizza<br>Avg Price: €11.12</div>`)[0];
+                popup_da5f8b39e5ed2ddf8e5ea16f316dc2fd.setContent(html_58388f61b63c99025caf3fb79e08db19);
+            
+        
+
+        marker_ad4473fdc75710d075f58ab7726d2566.bindPopup(popup_da5f8b39e5ed2ddf8e5ea16f316dc2fd)
+        ;
+
+        
+    
+    
+            var marker_d84224d18b49b615b80c4121472a4863 = L.marker(
+                [51.2187238, 5.3134026],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_adff318838bc5009a524189f47c3b78c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_889ec810abb862a20798d32abe168ee4 = $(`<div id="html_889ec810abb862a20798d32abe168ee4" style="width: 100.0%; height: 100.0%;">Fansa<br>Avg Price: €11.66</div>`)[0];
+                popup_adff318838bc5009a524189f47c3b78c.setContent(html_889ec810abb862a20798d32abe168ee4);
+            
+        
+
+        marker_d84224d18b49b615b80c4121472a4863.bindPopup(popup_adff318838bc5009a524189f47c3b78c)
+        ;
+
+        
+    
+    
+            var marker_3a91617c34e7c70dafcdcd73eb43537a = L.marker(
+                [51.0730654, 3.7310747],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_1b451e125c207f6bc26e5aa6be714a8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36f12d3c53cf231a302d98cf42509df5 = $(`<div id="html_36f12d3c53cf231a302d98cf42509df5" style="width: 100.0%; height: 100.0%;">Snack Muide<br>Avg Price: €7.00</div>`)[0];
+                popup_1b451e125c207f6bc26e5aa6be714a8c.setContent(html_36f12d3c53cf231a302d98cf42509df5);
+            
+        
+
+        marker_3a91617c34e7c70dafcdcd73eb43537a.bindPopup(popup_1b451e125c207f6bc26e5aa6be714a8c)
+        ;
+
+        
+    
+    
+            var marker_4814457412d02bb6708776f77ac4cab0 = L.marker(
+                [51.3557804, 4.8650923],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_8c54e44ca4f6009595d038a27d3d946d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9f92c5b1b8a01499890019e00dc711f = $(`<div id="html_b9f92c5b1b8a01499890019e00dc711f" style="width: 100.0%; height: 100.0%;">Flamingo Pizza & Kebap<br>Avg Price: €9.00</div>`)[0];
+                popup_8c54e44ca4f6009595d038a27d3d946d.setContent(html_b9f92c5b1b8a01499890019e00dc711f);
+            
+        
+
+        marker_4814457412d02bb6708776f77ac4cab0.bindPopup(popup_8c54e44ca4f6009595d038a27d3d946d)
+        ;
+
+        
+    
+    
+            var marker_b254be5640c2a404fa29d73c32e43edf = L.marker(
+                [51.2321067, 5.3469081],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_f24ad6ca96be16d06f993d3753a3c2e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85cea698b43cc388ec35b95cb2eb0f7c = $(`<div id="html_85cea698b43cc388ec35b95cb2eb0f7c" style="width: 100.0%; height: 100.0%;">Eethuis Florya Lommel<br>Avg Price: €10.75</div>`)[0];
+                popup_f24ad6ca96be16d06f993d3753a3c2e0.setContent(html_85cea698b43cc388ec35b95cb2eb0f7c);
+            
+        
+
+        marker_b254be5640c2a404fa29d73c32e43edf.bindPopup(popup_f24ad6ca96be16d06f993d3753a3c2e0)
+        ;
+
+        
+    
+    
+            var marker_5e126349d5ca700d627f977de9e6357b = L.marker(
+                [51.019872, 5.4752219],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_d0ef0d50888ea66bb053c2fabbe5fafb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c48b1e82c8ff2834407be94910247b3c = $(`<div id="html_c48b1e82c8ff2834407be94910247b3c" style="width: 100.0%; height: 100.0%;">Florya Kebab & Pizzeria<br>Avg Price: €11.67</div>`)[0];
+                popup_d0ef0d50888ea66bb053c2fabbe5fafb.setContent(html_c48b1e82c8ff2834407be94910247b3c);
+            
+        
+
+        marker_5e126349d5ca700d627f977de9e6357b.bindPopup(popup_d0ef0d50888ea66bb053c2fabbe5fafb)
+        ;
+
+        
+    
+    
+            var marker_b22d46987ec8e5a4ac6d53077fd56b2d = L.marker(
+                [50.8448432, 3.6028256],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_04ef2fbec27907e3c06367cbacc0647b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95ce8afa6be5aeca7d7ea3cbf8d225da = $(`<div id="html_95ce8afa6be5aeca7d7ea3cbf8d225da" style="width: 100.0%; height: 100.0%;">Fresca<br>Avg Price: €10.14</div>`)[0];
+                popup_04ef2fbec27907e3c06367cbacc0647b.setContent(html_95ce8afa6be5aeca7d7ea3cbf8d225da);
+            
+        
+
+        marker_b22d46987ec8e5a4ac6d53077fd56b2d.bindPopup(popup_04ef2fbec27907e3c06367cbacc0647b)
+        ;
+
+        
+    
+    
+            var marker_55ec25cce2646f3462aceb127b1a9e1c = L.marker(
+                [50.8360019, 4.3001559],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_fdf7da02b902de1848a1cc49a0af1cc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a9d2cc24891d4e0b32e265b302fc65b = $(`<div id="html_9a9d2cc24891d4e0b32e265b302fc65b" style="width: 100.0%; height: 100.0%;">Snack de Linde<br>Avg Price: €13.00</div>`)[0];
+                popup_fdf7da02b902de1848a1cc49a0af1cc0.setContent(html_9a9d2cc24891d4e0b32e265b302fc65b);
+            
+        
+
+        marker_55ec25cce2646f3462aceb127b1a9e1c.bindPopup(popup_fdf7da02b902de1848a1cc49a0af1cc0)
+        ;
+
+        
+    
+    
+            var marker_9a66fff9cfad6d42aa9f6d954d7892c4 = L.marker(
+                [51.2003641, 4.4406549],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_47f968c529a05d0be736b5a61f73d8e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96f1f623e8d134c78a79ef7af987a094 = $(`<div id="html_96f1f623e8d134c78a79ef7af987a094" style="width: 100.0%; height: 100.0%;">Frituur De Gitschotel<br>Avg Price: €8.00</div>`)[0];
+                popup_47f968c529a05d0be736b5a61f73d8e2.setContent(html_96f1f623e8d134c78a79ef7af987a094);
+            
+        
+
+        marker_9a66fff9cfad6d42aa9f6d954d7892c4.bindPopup(popup_47f968c529a05d0be736b5a61f73d8e2)
+        ;
+
+        
+    
+    
+            var marker_4a071828b2c8743ffe546e60457c1f40 = L.marker(
+                [51.0391266, 5.2998532],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_139e19b0e9a514052c47655ef38bddac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4da931e1169cfda29dcad1f432995343 = $(`<div id="html_4da931e1169cfda29dcad1f432995343" style="width: 100.0%; height: 100.0%;">Frituur Muzzy<br>Avg Price: €9.58</div>`)[0];
+                popup_139e19b0e9a514052c47655ef38bddac.setContent(html_4da931e1169cfda29dcad1f432995343);
+            
+        
+
+        marker_4a071828b2c8743ffe546e60457c1f40.bindPopup(popup_139e19b0e9a514052c47655ef38bddac)
+        ;
+
+        
+    
+    
+            var marker_1be9f639b9ce0479d2a91095e5fe46f3 = L.marker(
+                [51.0407393, 5.2817897],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_378e83ba31512e0a61512d2ad22a4b25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15d1562df8aaf6c2e69a23113fcb25b5 = $(`<div id="html_15d1562df8aaf6c2e69a23113fcb25b5" style="width: 100.0%; height: 100.0%;">Frituur 't Bekske<br>Avg Price: €11.86</div>`)[0];
+                popup_378e83ba31512e0a61512d2ad22a4b25.setContent(html_15d1562df8aaf6c2e69a23113fcb25b5);
+            
+        
+
+        marker_1be9f639b9ce0479d2a91095e5fe46f3.bindPopup(popup_378e83ba31512e0a61512d2ad22a4b25)
+        ;
+
+        
+    
+    
+            var marker_84c606e221edda86d2e4451616503907 = L.marker(
+                [51.0609576, 3.7258703],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_dca5c4f01c4aa5f8f16450b6d759526d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9711cf07a206911d2d0b689787e767a = $(`<div id="html_f9711cf07a206911d2d0b689787e767a" style="width: 100.0%; height: 100.0%;">Gok 2 - Turkse keuken<br>Avg Price: €19.17</div>`)[0];
+                popup_dca5c4f01c4aa5f8f16450b6d759526d.setContent(html_f9711cf07a206911d2d0b689787e767a);
+            
+        
+
+        marker_84c606e221edda86d2e4451616503907.bindPopup(popup_dca5c4f01c4aa5f8f16450b6d759526d)
+        ;
+
+        
+    
+    
+            var marker_39ee32f440800e531e96bfaf4a127223 = L.marker(
+                [50.9642271, 5.4949196],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_8b270ce5c6ed293bdfd5e3afb67e2c78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f649388e21c5da0beb3f42dd6ada966c = $(`<div id="html_f649388e21c5da0beb3f42dd6ada966c" style="width: 100.0%; height: 100.0%;">Grill House Centrum<br>Avg Price: €11.05</div>`)[0];
+                popup_8b270ce5c6ed293bdfd5e3afb67e2c78.setContent(html_f649388e21c5da0beb3f42dd6ada966c);
+            
+        
+
+        marker_39ee32f440800e531e96bfaf4a127223.bindPopup(popup_8b270ce5c6ed293bdfd5e3afb67e2c78)
+        ;
+
+        
+    
+    
+            var marker_7d6b0314d98081969a6a86d8ef536060 = L.marker(
+                [50.9311393, 5.5741936],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_6246fcb905e8d11d9ade2a0f879a41b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd63cfd0d7f109dc370baaea2e114f90 = $(`<div id="html_bd63cfd0d7f109dc370baaea2e114f90" style="width: 100.0%; height: 100.0%;">Grillhouse Kusadasi<br>Avg Price: €13.50</div>`)[0];
+                popup_6246fcb905e8d11d9ade2a0f879a41b6.setContent(html_bd63cfd0d7f109dc370baaea2e114f90);
+            
+        
+
+        marker_7d6b0314d98081969a6a86d8ef536060.bindPopup(popup_6246fcb905e8d11d9ade2a0f879a41b6)
+        ;
+
+        
+    
+    
+            var marker_f11bd7c12372c2c1be806ec484052443 = L.marker(
+                [51.1162617, 5.2620302],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_73040d9a65186ed5910bf548ed836231 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34d6e846005c2e9564e2d69fdd6de56b = $(`<div id="html_34d6e846005c2e9564e2d69fdd6de56b" style="width: 100.0%; height: 100.0%;">Oba Grillhuis<br>Avg Price: €11.50</div>`)[0];
+                popup_73040d9a65186ed5910bf548ed836231.setContent(html_34d6e846005c2e9564e2d69fdd6de56b);
+            
+        
+
+        marker_f11bd7c12372c2c1be806ec484052443.bindPopup(popup_73040d9a65186ed5910bf548ed836231)
+        ;
+
+        
+    
+    
+            var marker_97b80199a971165dc90fafc932efe41c = L.marker(
+                [50.8570929, 4.3692621],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_f7721953da53a235b0f326cac31e2306 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a8a5f9ef4b6e728c8a529e3fbd11263 = $(`<div id="html_0a8a5f9ef4b6e728c8a529e3fbd11263" style="width: 100.0%; height: 100.0%;">Hanedan Kebap & Pizzeria<br>Avg Price: €54.76</div>`)[0];
+                popup_f7721953da53a235b0f326cac31e2306.setContent(html_0a8a5f9ef4b6e728c8a529e3fbd11263);
+            
+        
+
+        marker_97b80199a971165dc90fafc932efe41c.bindPopup(popup_f7721953da53a235b0f326cac31e2306)
+        ;
+
+        
+    
+    
+            var marker_27524ab4c3c3d8df166d00299ba039cf = L.marker(
+                [50.8582054, 4.3699121],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_fcabc1742c55c56d73e4868f6f425c0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de0e339ac09c7a1d67a2f6f6de0f4a89 = $(`<div id="html_de0e339ac09c7a1d67a2f6f6de0f4a89" style="width: 100.0%; height: 100.0%;">Has Pide<br>Avg Price: €30.42</div>`)[0];
+                popup_fcabc1742c55c56d73e4868f6f425c0a.setContent(html_de0e339ac09c7a1d67a2f6f6de0f4a89);
+            
+        
+
+        marker_27524ab4c3c3d8df166d00299ba039cf.bindPopup(popup_fcabc1742c55c56d73e4868f6f425c0a)
+        ;
+
+        
+    
+    
+            var marker_0eb6e396db15fe3e8e1012674a0028c3 = L.marker(
+                [50.9301263, 5.3318256],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_6399b151eeb82af460056df4d1106980 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5497939c4793430f366559a2610ac9bf = $(`<div id="html_5497939c4793430f366559a2610ac9bf" style="width: 100.0%; height: 100.0%;">Hasseltse Kebab<br>Avg Price: €12.00</div>`)[0];
+                popup_6399b151eeb82af460056df4d1106980.setContent(html_5497939c4793430f366559a2610ac9bf);
+            
+        
+
+        marker_0eb6e396db15fe3e8e1012674a0028c3.bindPopup(popup_6399b151eeb82af460056df4d1106980)
+        ;
+
+        
+    
+    
+            var marker_2eee0838e7c538a2a0bbd7fbed597ad4 = L.marker(
+                [51.3200678, 4.9751429],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_3e7b94d0441bf7bbe7c95b45f9887c5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56faa6e7c97d17ed27183f3b03b36594 = $(`<div id="html_56faa6e7c97d17ed27183f3b03b36594" style="width: 100.0%; height: 100.0%;">Het Paleis Eethuis<br>Avg Price: €11.79</div>`)[0];
+                popup_3e7b94d0441bf7bbe7c95b45f9887c5f.setContent(html_56faa6e7c97d17ed27183f3b03b36594);
+            
+        
+
+        marker_2eee0838e7c538a2a0bbd7fbed597ad4.bindPopup(popup_3e7b94d0441bf7bbe7c95b45f9887c5f)
+        ;
+
+        
+    
+    
+            var marker_a1b98a2a2b5c101a59188fbaaa1ed96f = L.marker(
+                [50.992436, 4.555168],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_e0cb2b29d0124cb15607e8a6303b840a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa0eabbc9a6f315d57f1d2f818abc224 = $(`<div id="html_aa0eabbc9a6f315d57f1d2f818abc224" style="width: 100.0%; height: 100.0%;">Hever Kebab<br>Avg Price: €10.06</div>`)[0];
+                popup_e0cb2b29d0124cb15607e8a6303b840a.setContent(html_aa0eabbc9a6f315d57f1d2f818abc224);
+            
+        
+
+        marker_a1b98a2a2b5c101a59188fbaaa1ed96f.bindPopup(popup_e0cb2b29d0124cb15607e8a6303b840a)
+        ;
+
+        
+    
+    
+            var marker_3e6243d0719bc8cc74741cf6ab95b7a1 = L.marker(
+                [51.1447208, 5.7423493],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_6cbb8ffa137d938844b83536e854efef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_549779d5211748ac004192833cb343a5 = $(`<div id="html_549779d5211748ac004192833cb343a5" style="width: 100.0%; height: 100.0%;">Huzur Pizzeria Kebab<br>Avg Price: €8.00</div>`)[0];
+                popup_6cbb8ffa137d938844b83536e854efef.setContent(html_549779d5211748ac004192833cb343a5);
+            
+        
+
+        marker_3e6243d0719bc8cc74741cf6ab95b7a1.bindPopup(popup_6cbb8ffa137d938844b83536e854efef)
+        ;
+
+        
+    
+    
+            var marker_e142fe7db02244b0c956013264d68a9b = L.marker(
+                [51.1311405, 5.4560267],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_cdad166d06dfb37ae3a0904d060101eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b74328364d752897b9c05eb3c1bae18 = $(`<div id="html_9b74328364d752897b9c05eb3c1bae18" style="width: 100.0%; height: 100.0%;">Huzur Pizzeria Kebab<br>Avg Price: €14.83</div>`)[0];
+                popup_cdad166d06dfb37ae3a0904d060101eb.setContent(html_9b74328364d752897b9c05eb3c1bae18);
+            
+        
+
+        marker_e142fe7db02244b0c956013264d68a9b.bindPopup(popup_cdad166d06dfb37ae3a0904d060101eb)
+        ;
+
+        
+    
+    
+            var marker_68318f87dc53058d1c0f636b7987486a = L.marker(
+                [51.1609827, 4.9906752],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_5c66f15bf49d5379fa1c840c23fd0927 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2f118d81aa724fa2fb287316d30757e = $(`<div id="html_d2f118d81aa724fa2fb287316d30757e" style="width: 100.0%; height: 100.0%;">Istanbul<br>Avg Price: €9.61</div>`)[0];
+                popup_5c66f15bf49d5379fa1c840c23fd0927.setContent(html_d2f118d81aa724fa2fb287316d30757e);
+            
+        
+
+        marker_68318f87dc53058d1c0f636b7987486a.bindPopup(popup_5c66f15bf49d5379fa1c840c23fd0927)
+        ;
+
+        
+    
+    
+            var marker_bb4d1c4d3154acd0ce0b819fe9c6893c = L.marker(
+                [50.9909538, 4.8407489],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_805a07723d456f1cac122f9ce349da01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9cafd376c3773b1e1ce9e2be2abad65a = $(`<div id="html_9cafd376c3773b1e1ce9e2be2abad65a" style="width: 100.0%; height: 100.0%;">Istanbul Grill Huis<br>Avg Price: €11.75</div>`)[0];
+                popup_805a07723d456f1cac122f9ce349da01.setContent(html_9cafd376c3773b1e1ce9e2be2abad65a);
+            
+        
+
+        marker_bb4d1c4d3154acd0ce0b819fe9c6893c.bindPopup(popup_805a07723d456f1cac122f9ce349da01)
+        ;
+
+        
+    
+    
+            var marker_f03d69a81dcd25b769a5b0c3f3aec568 = L.marker(
+                [51.2798399, 4.4187852],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_0ae3cd69a009597aa331f9c07880cd81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_014627a6f4822177867e0d5af6ca27b0 = $(`<div id="html_014627a6f4822177867e0d5af6ca27b0" style="width: 100.0%; height: 100.0%;">Istanbul pizza & pita<br>Avg Price: €6.67</div>`)[0];
+                popup_0ae3cd69a009597aa331f9c07880cd81.setContent(html_014627a6f4822177867e0d5af6ca27b0);
+            
+        
+
+        marker_f03d69a81dcd25b769a5b0c3f3aec568.bindPopup(popup_0ae3cd69a009597aa331f9c07880cd81)
+        ;
+
+        
+    
+    
+            var marker_e166513e16a7adcd72524aee91d32bec = L.marker(
+                [51.232292, 2.914207],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_d96912762b125206192c3f5a23e72d6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fd46d9797e008689371badbda039ca4 = $(`<div id="html_3fd46d9797e008689371badbda039ca4" style="width: 100.0%; height: 100.0%;">Izmir Kebab<br>Avg Price: €13.50</div>`)[0];
+                popup_d96912762b125206192c3f5a23e72d6b.setContent(html_3fd46d9797e008689371badbda039ca4);
+            
+        
+
+        marker_e166513e16a7adcd72524aee91d32bec.bindPopup(popup_d96912762b125206192c3f5a23e72d6b)
+        ;
+
+        
+    
+    
+            var marker_2eaab8e86e777aa52264cfc61a02bdea = L.marker(
+                [51.2265962, 4.4049746],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_2fe9c4e30b6a1a1a372f093503b2d2cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb7c01ed338b28052f55d0e9cd580d95 = $(`<div id="html_fb7c01ed338b28052f55d0e9cd580d95" style="width: 100.0%; height: 100.0%;">Kababu<br>Avg Price: €9.50</div>`)[0];
+                popup_2fe9c4e30b6a1a1a372f093503b2d2cb.setContent(html_fb7c01ed338b28052f55d0e9cd580d95);
+            
+        
+
+        marker_2eaab8e86e777aa52264cfc61a02bdea.bindPopup(popup_2fe9c4e30b6a1a1a372f093503b2d2cb)
+        ;
+
+        
+    
+    
+            var marker_fd569f007c75d9f4fdecb6be1d2b4ed4 = L.marker(
+                [51.0448154, 4.1055125],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_12c9494b18bd6e36f263868e9ab649bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f97795fef8c934c5ef704bb2c5dcda6b = $(`<div id="html_f97795fef8c934c5ef704bb2c5dcda6b" style="width: 100.0%; height: 100.0%;">Karine Grembergen<br>Avg Price: €14.65</div>`)[0];
+                popup_12c9494b18bd6e36f263868e9ab649bd.setContent(html_f97795fef8c934c5ef704bb2c5dcda6b);
+            
+        
+
+        marker_fd569f007c75d9f4fdecb6be1d2b4ed4.bindPopup(popup_12c9494b18bd6e36f263868e9ab649bd)
+        ;
+
+        
+    
+    
+            var marker_91f9fb1306dc3d3f86b178be9f418922 = L.marker(
+                [50.8803556, 4.7055925],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_2695989609eeaccb5cc90a1523a686ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9c9a6dcd101743df143ca9cb84502e4 = $(`<div id="html_f9c9a6dcd101743df143ca9cb84502e4" style="width: 100.0%; height: 100.0%;">Kebab Leuven<br>Avg Price: €9.00</div>`)[0];
+                popup_2695989609eeaccb5cc90a1523a686ac.setContent(html_f9c9a6dcd101743df143ca9cb84502e4);
+            
+        
+
+        marker_91f9fb1306dc3d3f86b178be9f418922.bindPopup(popup_2695989609eeaccb5cc90a1523a686ac)
+        ;
+
+        
+    
+    
+            var marker_a70466aa0d433d1537cf93e68fc46348 = L.marker(
+                [50.9799202, 4.9708248],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_e42dfcc42e54c5452e87045524860130 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1537c59acbca3bb1625ec8e75cac0d4d = $(`<div id="html_1537c59acbca3bb1625ec8e75cac0d4d" style="width: 100.0%; height: 100.0%;">Kebap Store<br>Avg Price: €10.75</div>`)[0];
+                popup_e42dfcc42e54c5452e87045524860130.setContent(html_1537c59acbca3bb1625ec8e75cac0d4d);
+            
+        
+
+        marker_a70466aa0d433d1537cf93e68fc46348.bindPopup(popup_e42dfcc42e54c5452e87045524860130)
+        ;
+
+        
+    
+    
+            var marker_1af017962531aa816765c441fe55d494 = L.marker(
+                [51.3249431, 4.9393244],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_3bee5f2688ccef4f5bdebc551a0120ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67bb098123422560228eeea825cb634a = $(`<div id="html_67bb098123422560228eeea825cb634a" style="width: 100.0%; height: 100.0%;">Kebap Anatolia<br>Avg Price: €14.25</div>`)[0];
+                popup_3bee5f2688ccef4f5bdebc551a0120ef.setContent(html_67bb098123422560228eeea825cb634a);
+            
+        
+
+        marker_1af017962531aa816765c441fe55d494.bindPopup(popup_3bee5f2688ccef4f5bdebc551a0120ef)
+        ;
+
+        
+    
+    
+            var marker_b7466c1e96a64fab0c12aecce1954203 = L.marker(
+                [50.9787777, 4.9792033],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_2f41a438eafc0d013f303e73bea9a73a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e9adf721691fd7b0c51c7d6236a04ec = $(`<div id="html_7e9adf721691fd7b0c51c7d6236a04ec" style="width: 100.0%; height: 100.0%;">Kebap Kursat<br>Avg Price: €12.53</div>`)[0];
+                popup_2f41a438eafc0d013f303e73bea9a73a.setContent(html_7e9adf721691fd7b0c51c7d6236a04ec);
+            
+        
+
+        marker_b7466c1e96a64fab0c12aecce1954203.bindPopup(popup_2f41a438eafc0d013f303e73bea9a73a)
+        ;
+
+        
+    
+    
+            var marker_f4ee60987c03aa13d10eceff75802bfe = L.marker(
+                [50.8926649, 5.1141853],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ee29e95ff2ae083daad8e84daad24b59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d350af890969a82c8de9c91287aba89c = $(`<div id="html_d350af890969a82c8de9c91287aba89c" style="width: 100.0%; height: 100.0%;">Kebap Mustafa<br>Avg Price: €10.04</div>`)[0];
+                popup_ee29e95ff2ae083daad8e84daad24b59.setContent(html_d350af890969a82c8de9c91287aba89c);
+            
+        
+
+        marker_f4ee60987c03aa13d10eceff75802bfe.bindPopup(popup_ee29e95ff2ae083daad8e84daad24b59)
+        ;
+
+        
+    
+    
+            var marker_511947cf539e7bb6e8a810ab3f5bd37e = L.marker(
+                [51.3219452, 4.9401798],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_a2a8de08277bef94094ea5f2be36ea20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_464ba1ca5df2f44067a6bc53948b32b8 = $(`<div id="html_464ba1ca5df2f44067a6bc53948b32b8" style="width: 100.0%; height: 100.0%;">Kebap Xpress<br>Avg Price: €8.50</div>`)[0];
+                popup_a2a8de08277bef94094ea5f2be36ea20.setContent(html_464ba1ca5df2f44067a6bc53948b32b8);
+            
+        
+
+        marker_511947cf539e7bb6e8a810ab3f5bd37e.bindPopup(popup_a2a8de08277bef94094ea5f2be36ea20)
+        ;
+
+        
+    
+    
+            var marker_d3b4778c3084683b873248dcc5b7f60f = L.marker(
+                [50.8739395, 4.3145004],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_730b06ae675372a0008d46de1292b970 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a73ce2e38a48137a2dfaa2cb473582d = $(`<div id="html_7a73ce2e38a48137a2dfaa2cb473582d" style="width: 100.0%; height: 100.0%;">Kebap Food<br>Avg Price: €7.74</div>`)[0];
+                popup_730b06ae675372a0008d46de1292b970.setContent(html_7a73ce2e38a48137a2dfaa2cb473582d);
+            
+        
+
+        marker_d3b4778c3084683b873248dcc5b7f60f.bindPopup(popup_730b06ae675372a0008d46de1292b970)
+        ;
+
+        
+    
+    
+            var marker_8bdb3f86082d5ab95f36588e0d986ab1 = L.marker(
+                [51.183926, 5.1148286],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_890fa257d857fcc5ac6096c87dd90ccb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_330f99f9760e4ec3e8c48069c6fde351 = $(`<div id="html_330f99f9760e4ec3e8c48069c6fde351" style="width: 100.0%; height: 100.0%;">Kent<br>Avg Price: €11.32</div>`)[0];
+                popup_890fa257d857fcc5ac6096c87dd90ccb.setContent(html_330f99f9760e4ec3e8c48069c6fde351);
+            
+        
+
+        marker_8bdb3f86082d5ab95f36588e0d986ab1.bindPopup(popup_890fa257d857fcc5ac6096c87dd90ccb)
+        ;
+
+        
+    
+    
+            var marker_763602344cbec8a89ab095e59b24fcc2 = L.marker(
+                [50.9770486, 4.6345681],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_42f79dc8b5d3b93d426981ed2cea028d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96a434c3d557a0a4e52039f1855849d9 = $(`<div id="html_96a434c3d557a0a4e52039f1855849d9" style="width: 100.0%; height: 100.0%;">King Kebap<br>Avg Price: €9.42</div>`)[0];
+                popup_42f79dc8b5d3b93d426981ed2cea028d.setContent(html_96a434c3d557a0a4e52039f1855849d9);
+            
+        
+
+        marker_763602344cbec8a89ab095e59b24fcc2.bindPopup(popup_42f79dc8b5d3b93d426981ed2cea028d)
+        ;
+
+        
+    
+    
+            var marker_f3e4283ba878ea58ef7098ea3b4b0176 = L.marker(
+                [51.2021287, 4.3928709],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_b853b0603db44ec9ebdc19d72f66f60e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20b4cdc29128ae2025bce5add1c9af39 = $(`<div id="html_20b4cdc29128ae2025bce5add1c9af39" style="width: 100.0%; height: 100.0%;">Kokorecci Antwerpen<br>Avg Price: €14.50</div>`)[0];
+                popup_b853b0603db44ec9ebdc19d72f66f60e.setContent(html_20b4cdc29128ae2025bce5add1c9af39);
+            
+        
+
+        marker_f3e4283ba878ea58ef7098ea3b4b0176.bindPopup(popup_b853b0603db44ec9ebdc19d72f66f60e)
+        ;
+
+        
+    
+    
+            var marker_ae4146ce420f2c3bc1d4a4c341e00a3c = L.marker(
+                [51.226234, 4.425389],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_dc038b611a2e6928884f07f49ce69f50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf112989db1efcab919380797ced4320 = $(`<div id="html_cf112989db1efcab919380797ced4320" style="width: 100.0%; height: 100.0%;">Koz Kebap<br>Avg Price: €16.00</div>`)[0];
+                popup_dc038b611a2e6928884f07f49ce69f50.setContent(html_cf112989db1efcab919380797ced4320);
+            
+        
+
+        marker_ae4146ce420f2c3bc1d4a4c341e00a3c.bindPopup(popup_dc038b611a2e6928884f07f49ce69f50)
+        ;
+
+        
+    
+    
+            var marker_11d5da58958fd4bbeb1a7ef283452e9f = L.marker(
+                [51.22917, 5.4319444],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_aacb31c9257e0add93ca521cfd0b1b99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa36c4d0cbd017f66543a0084b6bcaeb = $(`<div id="html_fa36c4d0cbd017f66543a0084b6bcaeb" style="width: 100.0%; height: 100.0%;">La Bella<br>Avg Price: €14.95</div>`)[0];
+                popup_aacb31c9257e0add93ca521cfd0b1b99.setContent(html_fa36c4d0cbd017f66543a0084b6bcaeb);
+            
+        
+
+        marker_11d5da58958fd4bbeb1a7ef283452e9f.bindPopup(popup_aacb31c9257e0add93ca521cfd0b1b99)
+        ;
+
+        
+    
+    
+            var marker_0b2a34f2e5ae625ade6bc09a19e2460e = L.marker(
+                [51.244299, 4.4447138],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_1a84668a6f9b2ab1ca4ffbb9ccf056ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5331ad53746d58fec568e184d4f9cf85 = $(`<div id="html_5331ad53746d58fec568e184d4f9cf85" style="width: 100.0%; height: 100.0%;">Layana Food<br>Avg Price: €10.00</div>`)[0];
+                popup_1a84668a6f9b2ab1ca4ffbb9ccf056ab.setContent(html_5331ad53746d58fec568e184d4f9cf85);
+            
+        
+
+        marker_0b2a34f2e5ae625ade6bc09a19e2460e.bindPopup(popup_1a84668a6f9b2ab1ca4ffbb9ccf056ab)
+        ;
+
+        
+    
+    
+            var marker_7b1bdf8a5bcbfd6a742760f7eaf39810 = L.marker(
+                [0.0, 0.0],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_887fa47b63a91795cee11d6c60a9ace7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab107c79ed2c53ed344b247ef8cc63e9 = $(`<div id="html_ab107c79ed2c53ed344b247ef8cc63e9" style="width: 100.0%; height: 100.0%;">Le Kasseria<br>Avg Price: €11.70</div>`)[0];
+                popup_887fa47b63a91795cee11d6c60a9ace7.setContent(html_ab107c79ed2c53ed344b247ef8cc63e9);
+            
+        
+
+        marker_7b1bdf8a5bcbfd6a742760f7eaf39810.bindPopup(popup_887fa47b63a91795cee11d6c60a9ace7)
+        ;
+
+        
+    
+    
+            var marker_f18b8b54177d8b95445f034567652d9d = L.marker(
+                [50.998704, 5.512514],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_8b3c612bc40a6c9364ec9dd57040c061 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2dbc09f71b38288a9df33f903427aa2c = $(`<div id="html_2dbc09f71b38288a9df33f903427aa2c" style="width: 100.0%; height: 100.0%;">Liman Grill House<br>Avg Price: €16.36</div>`)[0];
+                popup_8b3c612bc40a6c9364ec9dd57040c061.setContent(html_2dbc09f71b38288a9df33f903427aa2c);
+            
+        
+
+        marker_f18b8b54177d8b95445f034567652d9d.bindPopup(popup_8b3c612bc40a6c9364ec9dd57040c061)
+        ;
+
+        
+    
+    
+            var marker_8c7b9964903366b45fb142bf8e3a7475 = L.marker(
+                [50.8784156, 4.699806],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_5d339b47cb8b99c3c2d5381df3378bd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cf0f4d6f0cf8acc90e06791fe3bd799 = $(`<div id="html_8cf0f4d6f0cf8acc90e06791fe3bd799" style="width: 100.0%; height: 100.0%;">Loco Pizza<br>Avg Price: €8.24</div>`)[0];
+                popup_5d339b47cb8b99c3c2d5381df3378bd3.setContent(html_8cf0f4d6f0cf8acc90e06791fe3bd799);
+            
+        
+
+        marker_8c7b9964903366b45fb142bf8e3a7475.bindPopup(popup_5d339b47cb8b99c3c2d5381df3378bd3)
+        ;
+
+        
+    
+    
+            var marker_05b7cb5ea79b062cb795fcf181f3a2db = L.marker(
+                [50.87404, 4.7090521],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_77afa4c5fa410cc4d1cd0c86bc47cfa9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c739b0bcdbeed32a4b2441af77a35e2b = $(`<div id="html_c739b0bcdbeed32a4b2441af77a35e2b" style="width: 100.0%; height: 100.0%;">Loco Pizza 2<br>Avg Price: €9.25</div>`)[0];
+                popup_77afa4c5fa410cc4d1cd0c86bc47cfa9.setContent(html_c739b0bcdbeed32a4b2441af77a35e2b);
+            
+        
+
+        marker_05b7cb5ea79b062cb795fcf181f3a2db.bindPopup(popup_77afa4c5fa410cc4d1cd0c86bc47cfa9)
+        ;
+
+        
+    
+    
+            var marker_781724afea585be22b5884d8c60e6aa8 = L.marker(
+                [50.8026021, 5.3490397],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_a4f065b88ac8cb4019cd078bd57aba48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a738ee58c48db88cb0269d5d4a71b473 = $(`<div id="html_a738ee58c48db88cb0269d5d4a71b473" style="width: 100.0%; height: 100.0%;">Loons Qebap<br>Avg Price: €14.00</div>`)[0];
+                popup_a4f065b88ac8cb4019cd078bd57aba48.setContent(html_a738ee58c48db88cb0269d5d4a71b473);
+            
+        
+
+        marker_781724afea585be22b5884d8c60e6aa8.bindPopup(popup_a4f065b88ac8cb4019cd078bd57aba48)
+        ;
+
+        
+    
+    
+            var marker_c2e3883321bdb40dd480ae1461f74495 = L.marker(
+                [50.8396305, 5.0213554],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_35a26c4399c2801db25a98b0c4bbbc06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb85bc72adea17f9f962503eeb278a0d = $(`<div id="html_fb85bc72adea17f9f962503eeb278a0d" style="width: 100.0%; height: 100.0%;">Maara Uno<br>Avg Price: €9.00</div>`)[0];
+                popup_35a26c4399c2801db25a98b0c4bbbc06.setContent(html_fb85bc72adea17f9f962503eeb278a0d);
+            
+        
+
+        marker_c2e3883321bdb40dd480ae1461f74495.bindPopup(popup_35a26c4399c2801db25a98b0c4bbbc06)
+        ;
+
+        
+    
+    
+            var marker_c339a3c2280d47f66a1d5113e35438eb = L.marker(
+                [50.9158814, 4.6556004],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_2c3fa46308d3d3b8026cb20470fe364a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7758e6b97068633440e9cd1aee587f97 = $(`<div id="html_7758e6b97068633440e9cd1aee587f97" style="width: 100.0%; height: 100.0%;">Masaya<br>Avg Price: €11.00</div>`)[0];
+                popup_2c3fa46308d3d3b8026cb20470fe364a.setContent(html_7758e6b97068633440e9cd1aee587f97);
+            
+        
+
+        marker_c339a3c2280d47f66a1d5113e35438eb.bindPopup(popup_2c3fa46308d3d3b8026cb20470fe364a)
+        ;
+
+        
+    
+    
+            var marker_8f2b8282f0d99fe94fb28d9e4b904f91 = L.marker(
+                [50.977367, 5.489949],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_6eef2c75d0911655fb6ef3494ca47400 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3454c013308110cf988de22b569b74be = $(`<div id="html_3454c013308110cf988de22b569b74be" style="width: 100.0%; height: 100.0%;">Mashar Pide<br>Avg Price: €11.92</div>`)[0];
+                popup_6eef2c75d0911655fb6ef3494ca47400.setContent(html_3454c013308110cf988de22b569b74be);
+            
+        
+
+        marker_8f2b8282f0d99fe94fb28d9e4b904f91.bindPopup(popup_6eef2c75d0911655fb6ef3494ca47400)
+        ;
+
+        
+    
+    
+            var marker_8ba8bb77f42b97375046f8a07d19849b = L.marker(
+                [50.8487033, 5.4899992],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_49352df8734f9ed2a34f0773e089f0bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_adf1ec4e4903b09c81a89e0cb061ea40 = $(`<div id="html_adf1ec4e4903b09c81a89e0cb061ea40" style="width: 100.0%; height: 100.0%;">Eethuis Mehmet<br>Avg Price: €12.96</div>`)[0];
+                popup_49352df8734f9ed2a34f0773e089f0bf.setContent(html_adf1ec4e4903b09c81a89e0cb061ea40);
+            
+        
+
+        marker_8ba8bb77f42b97375046f8a07d19849b.bindPopup(popup_49352df8734f9ed2a34f0773e089f0bf)
+        ;
+
+        
+    
+    
+            var marker_993be80e7b0a0ef3538138b2ab6d0d7b = L.marker(
+                [51.0262183, 4.4771478],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_94dc9d89e1374c7d7bd1181941463d2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55bd0d64548ef38fcab788080f723c32 = $(`<div id="html_55bd0d64548ef38fcab788080f723c32" style="width: 100.0%; height: 100.0%;">Merad Restaurant<br>Avg Price: €18.80</div>`)[0];
+                popup_94dc9d89e1374c7d7bd1181941463d2e.setContent(html_55bd0d64548ef38fcab788080f723c32);
+            
+        
+
+        marker_993be80e7b0a0ef3538138b2ab6d0d7b.bindPopup(popup_94dc9d89e1374c7d7bd1181941463d2e)
+        ;
+
+        
+    
+    
+            var marker_1805f2751002df4edddb2c662c64a67a = L.marker(
+                [50.8841354, 4.7230861],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_0adaf3f4c80dbc7ab55e7bab7a1be26a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36f24d7a4fdf3fd2a888865bdb9bbd82 = $(`<div id="html_36f24d7a4fdf3fd2a888865bdb9bbd82" style="width: 100.0%; height: 100.0%;">Merdin 1<br>Avg Price: €11.00</div>`)[0];
+                popup_0adaf3f4c80dbc7ab55e7bab7a1be26a.setContent(html_36f24d7a4fdf3fd2a888865bdb9bbd82);
+            
+        
+
+        marker_1805f2751002df4edddb2c662c64a67a.bindPopup(popup_0adaf3f4c80dbc7ab55e7bab7a1be26a)
+        ;
+
+        
+    
+    
+            var marker_479edd0b8799e7742507bb3821fd2e96 = L.marker(
+                [50.9407756, 4.7316923],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_c91e5d7a9a8f4aac8db7bdd8bf1d9369 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cbbf002c2cd25a7f98a55085207aef7 = $(`<div id="html_2cbbf002c2cd25a7f98a55085207aef7" style="width: 100.0%; height: 100.0%;">Merdin 2<br>Avg Price: €10.93</div>`)[0];
+                popup_c91e5d7a9a8f4aac8db7bdd8bf1d9369.setContent(html_2cbbf002c2cd25a7f98a55085207aef7);
+            
+        
+
+        marker_479edd0b8799e7742507bb3821fd2e96.bindPopup(popup_c91e5d7a9a8f4aac8db7bdd8bf1d9369)
+        ;
+
+        
+    
+    
+            var marker_bb2b12a79c649470a8d00ed7032ab7d8 = L.marker(
+                [50.9925856, 4.7061002],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_220776d1c357c27f77bc54f4ae939b6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_861b895de4c93f9835f8f08e70ea8930 = $(`<div id="html_861b895de4c93f9835f8f08e70ea8930" style="width: 100.0%; height: 100.0%;">Merdin 3<br>Avg Price: €6.75</div>`)[0];
+                popup_220776d1c357c27f77bc54f4ae939b6d.setContent(html_861b895de4c93f9835f8f08e70ea8930);
+            
+        
+
+        marker_bb2b12a79c649470a8d00ed7032ab7d8.bindPopup(popup_220776d1c357c27f77bc54f4ae939b6d)
+        ;
+
+        
+    
+    
+            var marker_1cf8acf36212d44f02ff84e2fbff47e3 = L.marker(
+                [51.1038131, 3.9879605],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_b629087af37a5dbc5412a71cdff183db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a4603e0915411a63f977374ac3f709a = $(`<div id="html_8a4603e0915411a63f977374ac3f709a" style="width: 100.0%; height: 100.0%;">Pitta Mersan<br>Avg Price: €9.50</div>`)[0];
+                popup_b629087af37a5dbc5412a71cdff183db.setContent(html_8a4603e0915411a63f977374ac3f709a);
+            
+        
+
+        marker_1cf8acf36212d44f02ff84e2fbff47e3.bindPopup(popup_b629087af37a5dbc5412a71cdff183db)
+        ;
+
+        
+    
+    
+            var marker_866f9554d3796979b02e12979c6b5078 = L.marker(
+                [50.8964317, 4.8248638],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_446260120049612573546fb52bfe4417 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd11ea61535ff0f82ea44b7c96515a62 = $(`<div id="html_fd11ea61535ff0f82ea44b7c96515a62" style="width: 100.0%; height: 100.0%;">Pizza Metin<br>Avg Price: €7.61</div>`)[0];
+                popup_446260120049612573546fb52bfe4417.setContent(html_fd11ea61535ff0f82ea44b7c96515a62);
+            
+        
+
+        marker_866f9554d3796979b02e12979c6b5078.bindPopup(popup_446260120049612573546fb52bfe4417)
+        ;
+
+        
+    
+    
+            var marker_32bad455255a26accd143792edf17203 = L.marker(
+                [51.0006958, 4.8298804],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_de1704c3653bc2d6d4db8a1c4f2ce3cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0abdd4517b04521862748320dab62843 = $(`<div id="html_0abdd4517b04521862748320dab62843" style="width: 100.0%; height: 100.0%;">Midyat<br>Avg Price: €10.04</div>`)[0];
+                popup_de1704c3653bc2d6d4db8a1c4f2ce3cd.setContent(html_0abdd4517b04521862748320dab62843);
+            
+        
+
+        marker_32bad455255a26accd143792edf17203.bindPopup(popup_de1704c3653bc2d6d4db8a1c4f2ce3cd)
+        ;
+
+        
+    
+    
+            var marker_0033b5c7dc065897cb5e6ac90abecaf8 = L.marker(
+                [50.9768089, 4.6335843],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_7253c7f6db46375ba0d683bcef7a6940 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab5e8480bc6eaba887796eb2c6851335 = $(`<div id="html_ab5e8480bc6eaba887796eb2c6851335" style="width: 100.0%; height: 100.0%;">Milano Pizza Grill<br>Avg Price: €10.69</div>`)[0];
+                popup_7253c7f6db46375ba0d683bcef7a6940.setContent(html_ab5e8480bc6eaba887796eb2c6851335);
+            
+        
+
+        marker_0033b5c7dc065897cb5e6ac90abecaf8.bindPopup(popup_7253c7f6db46375ba0d683bcef7a6940)
+        ;
+
+        
+    
+    
+            var marker_67f157d2916605ee4c65332a669105ba = L.marker(
+                [0.0, 0.0],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_f9f344070a78b64e68d1d93df5e3acdc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4672b8f05fa35763e01f861d6c01272a = $(`<div id="html_4672b8f05fa35763e01f861d6c01272a" style="width: 100.0%; height: 100.0%;">Mira<br>Avg Price: €11.58</div>`)[0];
+                popup_f9f344070a78b64e68d1d93df5e3acdc.setContent(html_4672b8f05fa35763e01f861d6c01272a);
+            
+        
+
+        marker_67f157d2916605ee4c65332a669105ba.bindPopup(popup_f9f344070a78b64e68d1d93df5e3acdc)
+        ;
+
+        
+    
+    
+            var marker_c13b61472fd886f7789373feca458c56 = L.marker(
+                [51.2162709, 4.2514887],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_fb39cd4dbb06f15eaa39ff22f6ac0154 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c2466cc594f96cf8a7a795d7719cbae = $(`<div id="html_6c2466cc594f96cf8a7a795d7719cbae" style="width: 100.0%; height: 100.0%;">Miss Pizza<br>Avg Price: €12.00</div>`)[0];
+                popup_fb39cd4dbb06f15eaa39ff22f6ac0154.setContent(html_6c2466cc594f96cf8a7a795d7719cbae);
+            
+        
+
+        marker_c13b61472fd886f7789373feca458c56.bindPopup(popup_fb39cd4dbb06f15eaa39ff22f6ac0154)
+        ;
+
+        
+    
+    
+            var marker_a806fcd5de82070a90dcd9b3a59b54cd = L.marker(
+                [51.0061033, 5.4983049],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_63898a1918cd81e85535687bdea1bd10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a932f6ebc1ee35d14ce1c9f74661661d = $(`<div id="html_a932f6ebc1ee35d14ce1c9f74661661d" style="width: 100.0%; height: 100.0%;">Mr. Taco<br>Avg Price: €7.50</div>`)[0];
+                popup_63898a1918cd81e85535687bdea1bd10.setContent(html_a932f6ebc1ee35d14ce1c9f74661661d);
+            
+        
+
+        marker_a806fcd5de82070a90dcd9b3a59b54cd.bindPopup(popup_63898a1918cd81e85535687bdea1bd10)
+        ;
+
+        
+    
+    
+            var marker_0addc316209fba88b1b1e3297e90af71 = L.marker(
+                [50.9872387, 5.40882],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_c68f925d8d59a41f77770aaa48b3034b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b5cce5cec95e1cc3654cb625e10f496 = $(`<div id="html_3b5cce5cec95e1cc3654cb625e10f496" style="width: 100.0%; height: 100.0%;">My Kebab<br>Avg Price: €12.00</div>`)[0];
+                popup_c68f925d8d59a41f77770aaa48b3034b.setContent(html_3b5cce5cec95e1cc3654cb625e10f496);
+            
+        
+
+        marker_0addc316209fba88b1b1e3297e90af71.bindPopup(popup_c68f925d8d59a41f77770aaa48b3034b)
+        ;
+
+        
+    
+    
+            var marker_a6d82adecd3849ab750c6602c49c9be9 = L.marker(
+                [51.214038, 4.4411826],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_b99510ea1144d770a249ff5efd64bcd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad1ed34a1e8a7553ccd6769c47e8fdc8 = $(`<div id="html_ad1ed34a1e8a7553ccd6769c47e8fdc8" style="width: 100.0%; height: 100.0%;">Najmat Al shaam<br>Avg Price: €20.00</div>`)[0];
+                popup_b99510ea1144d770a249ff5efd64bcd4.setContent(html_ad1ed34a1e8a7553ccd6769c47e8fdc8);
+            
+        
+
+        marker_a6d82adecd3849ab750c6602c49c9be9.bindPopup(popup_b99510ea1144d770a249ff5efd64bcd4)
+        ;
+
+        
+    
+    
+            var marker_e336739293dc121f514a7b64ac5c9ac5 = L.marker(
+                [50.9083137, 4.6756146],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_7bdec2f5f127d88a42da71e053d2b789 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e61df9dc9d753c17ccb2300b5d679e7f = $(`<div id="html_e61df9dc9d753c17ccb2300b5d679e7f" style="width: 100.0%; height: 100.0%;">Napoli Pizza Grill<br>Avg Price: €9.25</div>`)[0];
+                popup_7bdec2f5f127d88a42da71e053d2b789.setContent(html_e61df9dc9d753c17ccb2300b5d679e7f);
+            
+        
+
+        marker_e336739293dc121f514a7b64ac5c9ac5.bindPopup(popup_7bdec2f5f127d88a42da71e053d2b789)
+        ;
+
+        
+    
+    
+            var marker_135901f1ea090e83229bda2d4fd71683 = L.marker(
+                [50.8071283, 4.9383136],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_b84090cc696f9716e91014080a273b73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_513f49eb76a0d590b97b6dc8333e0409 = $(`<div id="html_513f49eb76a0d590b97b6dc8333e0409" style="width: 100.0%; height: 100.0%;">Nazar Kebap<br>Avg Price: €9.78</div>`)[0];
+                popup_b84090cc696f9716e91014080a273b73.setContent(html_513f49eb76a0d590b97b6dc8333e0409);
+            
+        
+
+        marker_135901f1ea090e83229bda2d4fd71683.bindPopup(popup_b84090cc696f9716e91014080a273b73)
+        ;
+
+        
+    
+    
+            var marker_4cf6770759b2d1a92c28f87adbe9f5d7 = L.marker(
+                [51.0555709, 4.6305208],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_eab1f14332379fe6fd007979a22fe884 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b16848310da05e646e3e7c166e67f75a = $(`<div id="html_b16848310da05e646e3e7c166e67f75a" style="width: 100.0%; height: 100.0%;">Nazar Pizza Kebap<br>Avg Price: €12.00</div>`)[0];
+                popup_eab1f14332379fe6fd007979a22fe884.setContent(html_b16848310da05e646e3e7c166e67f75a);
+            
+        
+
+        marker_4cf6770759b2d1a92c28f87adbe9f5d7.bindPopup(popup_eab1f14332379fe6fd007979a22fe884)
+        ;
+
+        
+    
+    
+            var marker_dba2ae3d2d9efad59c4dda30144dd239 = L.marker(
+                [50.8096291, 4.9320733],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_86a26c87f2088e7923d5e58c7036f9ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64f143bb20e949cd8a5f013bcf5ecb09 = $(`<div id="html_64f143bb20e949cd8a5f013bcf5ecb09" style="width: 100.0%; height: 100.0%;">Nazar Side<br>Avg Price: €8.94</div>`)[0];
+                popup_86a26c87f2088e7923d5e58c7036f9ef.setContent(html_64f143bb20e949cd8a5f013bcf5ecb09);
+            
+        
+
+        marker_dba2ae3d2d9efad59c4dda30144dd239.bindPopup(popup_86a26c87f2088e7923d5e58c7036f9ef)
+        ;
+
+        
+    
+    
+            var marker_ce395a5ce80dd5ba5a3dac929ffeda72 = L.marker(
+                [51.0211834, 5.4712118],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_8ef3fe895e55394dc6f187f92725e9bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_958b551afebde2538641377e1a72760c = $(`<div id="html_958b551afebde2538641377e1a72760c" style="width: 100.0%; height: 100.0%;">New City<br>Avg Price: €9.07</div>`)[0];
+                popup_8ef3fe895e55394dc6f187f92725e9bf.setContent(html_958b551afebde2538641377e1a72760c);
+            
+        
+
+        marker_ce395a5ce80dd5ba5a3dac929ffeda72.bindPopup(popup_8ef3fe895e55394dc6f187f92725e9bf)
+        ;
+
+        
+    
+    
+            var marker_a915f6e09f35ddf50989935b10753c52 = L.marker(
+                [50.9453622, 5.2611201],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_3bc550bb21f874160d8cbbb35c3a4612 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae49ea3d3e471e464f47e0a040262d36 = $(`<div id="html_ae49ea3d3e471e464f47e0a040262d36" style="width: 100.0%; height: 100.0%;">Number One Snack<br>Avg Price: €11.50</div>`)[0];
+                popup_3bc550bb21f874160d8cbbb35c3a4612.setContent(html_ae49ea3d3e471e464f47e0a040262d36);
+            
+        
+
+        marker_a915f6e09f35ddf50989935b10753c52.bindPopup(popup_3bc550bb21f874160d8cbbb35c3a4612)
+        ;
+
+        
+    
+    
+            var marker_4b82fea947e5cf375d0deec4b05d564f = L.marker(
+                [51.0973895, 4.9451813],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_d226c7e7f1459dc8009437186565ecab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2dd9a00e574051a8c33313dc6d120ad = $(`<div id="html_e2dd9a00e574051a8c33313dc6d120ad" style="width: 100.0%; height: 100.0%;">Kebap Oasis<br>Avg Price: €12.06</div>`)[0];
+                popup_d226c7e7f1459dc8009437186565ecab.setContent(html_e2dd9a00e574051a8c33313dc6d120ad);
+            
+        
+
+        marker_4b82fea947e5cf375d0deec4b05d564f.bindPopup(popup_d226c7e7f1459dc8009437186565ecab)
+        ;
+
+        
+    
+    
+            var marker_158ee4578f60b7d627eb2bfac1c929e5 = L.marker(
+                [51.1845916, 4.374025],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_f8ba20a2aa504ad144ef7f1b262ba273 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c76581b06b626b269e1b188e3bd790d7 = $(`<div id="html_c76581b06b626b269e1b188e3bd790d7" style="width: 100.0%; height: 100.0%;">Okka Restaurant<br>Avg Price: €16.75</div>`)[0];
+                popup_f8ba20a2aa504ad144ef7f1b262ba273.setContent(html_c76581b06b626b269e1b188e3bd790d7);
+            
+        
+
+        marker_158ee4578f60b7d627eb2bfac1c929e5.bindPopup(popup_f8ba20a2aa504ad144ef7f1b262ba273)
+        ;
+
+        
+    
+    
+            var marker_5a89dfc7dc9f8e7a7239590027a96084 = L.marker(
+                [50.9800088, 5.0445122],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_4d5c2b0235efa96a49b9cea37af1af33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0b6af9fd48c28b5b88bad954f848acb = $(`<div id="html_f0b6af9fd48c28b5b88bad954f848acb" style="width: 100.0%; height: 100.0%;">Orient Diest<br>Avg Price: €17.90</div>`)[0];
+                popup_4d5c2b0235efa96a49b9cea37af1af33.setContent(html_f0b6af9fd48c28b5b88bad954f848acb);
+            
+        
+
+        marker_5a89dfc7dc9f8e7a7239590027a96084.bindPopup(popup_4d5c2b0235efa96a49b9cea37af1af33)
+        ;
+
+        
+    
+    
+            var marker_208f4e1fbef5d5e922999710071d29af = L.marker(
+                [50.8228108, 5.1759431],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_d09e7e656f1d3c2020fafcac8fc589e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bb250a5201a1ea7f77aca4c738473b2 = $(`<div id="html_0bb250a5201a1ea7f77aca4c738473b2" style="width: 100.0%; height: 100.0%;">Eethuis Orient<br>Avg Price: €15.60</div>`)[0];
+                popup_d09e7e656f1d3c2020fafcac8fc589e8.setContent(html_0bb250a5201a1ea7f77aca4c738473b2);
+            
+        
+
+        marker_208f4e1fbef5d5e922999710071d29af.bindPopup(popup_d09e7e656f1d3c2020fafcac8fc589e8)
+        ;
+
+        
+    
+    
+            var marker_b52ffa35485f0cf3ad16d8f56eb0c126 = L.marker(
+                [50.9249881, 5.3259603],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_8520f4a8b9cf1dcb17e70f05ec59b248 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a928b228445ab3fa073a20a83a945f2c = $(`<div id="html_a928b228445ab3fa073a20a83a945f2c" style="width: 100.0%; height: 100.0%;">Orient<br>Avg Price: €13.00</div>`)[0];
+                popup_8520f4a8b9cf1dcb17e70f05ec59b248.setContent(html_a928b228445ab3fa073a20a83a945f2c);
+            
+        
+
+        marker_b52ffa35485f0cf3ad16d8f56eb0c126.bindPopup(popup_8520f4a8b9cf1dcb17e70f05ec59b248)
+        ;
+
+        
+    
+    
+            var marker_f4fcca7080ec98c148c530482a2020db = L.marker(
+                [51.2119421, 5.4230823],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_a55c90ffef29dc80ad1aa25abd861108 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_792720091c5170a88dc37c1ac2bc446d = $(`<div id="html_792720091c5170a88dc37c1ac2bc446d" style="width: 100.0%; height: 100.0%;">Orient Overpelt<br>Avg Price: €11.89</div>`)[0];
+                popup_a55c90ffef29dc80ad1aa25abd861108.setContent(html_792720091c5170a88dc37c1ac2bc446d);
+            
+        
+
+        marker_f4fcca7080ec98c148c530482a2020db.bindPopup(popup_a55c90ffef29dc80ad1aa25abd861108)
+        ;
+
+        
+    
+    
+            var marker_65fb9889349ed96f0a7f27d2cf6eea84 = L.marker(
+                [50.8730912, 5.5212681],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_6a74e3573d2bbef02d599e2a77bfc3ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3da760a21ef493e6cdc66fa2689a1fa0 = $(`<div id="html_3da760a21ef493e6cdc66fa2689a1fa0" style="width: 100.0%; height: 100.0%;">Ottoman Eethuis<br>Avg Price: €9.50</div>`)[0];
+                popup_6a74e3573d2bbef02d599e2a77bfc3ea.setContent(html_3da760a21ef493e6cdc66fa2689a1fa0);
+            
+        
+
+        marker_65fb9889349ed96f0a7f27d2cf6eea84.bindPopup(popup_6a74e3573d2bbef02d599e2a77bfc3ea)
+        ;
+
+        
+    
+    
+            var marker_e5c85b4855f98cd71f85d8a7fddd8904 = L.marker(
+                [50.9304853, 5.3434391],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_a4327daed10b2bdae7195f6f575b30bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_813b5ffd60ef9f9155cc4a0ade63faac = $(`<div id="html_813b5ffd60ef9f9155cc4a0ade63faac" style="width: 100.0%; height: 100.0%;">Pain d'Or<br>Avg Price: €5.33</div>`)[0];
+                popup_a4327daed10b2bdae7195f6f575b30bc.setContent(html_813b5ffd60ef9f9155cc4a0ade63faac);
+            
+        
+
+        marker_e5c85b4855f98cd71f85d8a7fddd8904.bindPopup(popup_a4327daed10b2bdae7195f6f575b30bc)
+        ;
+
+        
+    
+    
+            var marker_7978fc47b96455dc8e1b3435e1f5592c = L.marker(
+                [51.0404918, 5.3049018],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_23e913d0cca20cef5469a6bb4d15465c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c433bd6d4ae9efc62b27ae40a6279477 = $(`<div id="html_c433bd6d4ae9efc62b27ae40a6279477" style="width: 100.0%; height: 100.0%;">Panini & Grill<br>Avg Price: €15.00</div>`)[0];
+                popup_23e913d0cca20cef5469a6bb4d15465c.setContent(html_c433bd6d4ae9efc62b27ae40a6279477);
+            
+        
+
+        marker_7978fc47b96455dc8e1b3435e1f5592c.bindPopup(popup_23e913d0cca20cef5469a6bb4d15465c)
+        ;
+
+        
+    
+    
+            var marker_85e76285aee9eceb82523e33fcf5a90a = L.marker(
+                [51.0332193, 5.2812994],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_6e6bbd9e20ba7c9030f2960cf9407f30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f0d71a70cfd0cf0af9c3929a394b11e = $(`<div id="html_6f0d71a70cfd0cf0af9c3929a394b11e" style="width: 100.0%; height: 100.0%;">Pasa<br>Avg Price: €9.50</div>`)[0];
+                popup_6e6bbd9e20ba7c9030f2960cf9407f30.setContent(html_6f0d71a70cfd0cf0af9c3929a394b11e);
+            
+        
+
+        marker_85e76285aee9eceb82523e33fcf5a90a.bindPopup(popup_6e6bbd9e20ba7c9030f2960cf9407f30)
+        ;
+
+        
+    
+    
+            var marker_f34d69e9047f8df55a20e8f6bf8af15a = L.marker(
+                [51.1654451, 4.989585],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_a7f03011724702da53e8772e84f91797 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_064a6becf66c83e2128cf08ed4527d34 = $(`<div id="html_064a6becf66c83e2128cf08ed4527d34" style="width: 100.0%; height: 100.0%;">Pasa Snack<br>Avg Price: €9.43</div>`)[0];
+                popup_a7f03011724702da53e8772e84f91797.setContent(html_064a6becf66c83e2128cf08ed4527d34);
+            
+        
+
+        marker_f34d69e9047f8df55a20e8f6bf8af15a.bindPopup(popup_a7f03011724702da53e8772e84f91797)
+        ;
+
+        
+    
+    
+            var marker_e80d1ad3350631675f077bad8075eb5a = L.marker(
+                [51.2508647, 4.4479395],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_83332a46d06230b0f5ccb0161c9ca458 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a25ee4eed06e0f706258af5c0532eb9 = $(`<div id="html_3a25ee4eed06e0f706258af5c0532eb9" style="width: 100.0%; height: 100.0%;">Pinocchio<br>Avg Price: €10.00</div>`)[0];
+                popup_83332a46d06230b0f5ccb0161c9ca458.setContent(html_3a25ee4eed06e0f706258af5c0532eb9);
+            
+        
+
+        marker_e80d1ad3350631675f077bad8075eb5a.bindPopup(popup_83332a46d06230b0f5ccb0161c9ca458)
+        ;
+
+        
+    
+    
+            var marker_8778e386daa931108017c8b4f6f14ad7 = L.marker(
+                [51.1310196, 4.3893394],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_fb63cc59b75ad5d54c88dfb528ec3b5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c6be47bca1f5c9cf4b460a6f335628b = $(`<div id="html_0c6be47bca1f5c9cf4b460a6f335628b" style="width: 100.0%; height: 100.0%;">Eethuis Tuba<br>Avg Price: €15.75</div>`)[0];
+                popup_fb63cc59b75ad5d54c88dfb528ec3b5d.setContent(html_0c6be47bca1f5c9cf4b460a6f335628b);
+            
+        
+
+        marker_8778e386daa931108017c8b4f6f14ad7.bindPopup(popup_fb63cc59b75ad5d54c88dfb528ec3b5d)
+        ;
+
+        
+    
+    
+            var marker_a9da34234d41aa9a8f4e841b44ca4473 = L.marker(
+                [51.0290797, 4.0986522],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_3a3e793129046687055e06c152ab1ea4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d4c9688f78c24b8bd6360318b44820d = $(`<div id="html_0d4c9688f78c24b8bd6360318b44820d" style="width: 100.0%; height: 100.0%;">Karine Dendermonde<br>Avg Price: €14.65</div>`)[0];
+                popup_3a3e793129046687055e06c152ab1ea4.setContent(html_0d4c9688f78c24b8bd6360318b44820d);
+            
+        
+
+        marker_a9da34234d41aa9a8f4e841b44ca4473.bindPopup(popup_3a3e793129046687055e06c152ab1ea4)
+        ;
+
+        
+    
+    
+            var marker_5b4d418cd7ee56d7299b03c88f9ba213 = L.marker(
+                [50.9421771, 4.0466792],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_dc9d9bd0c39d5f3b2eccbe922cd75800 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_792aa0fc112be4ffabed6a0226bf3c1f = $(`<div id="html_792aa0fc112be4ffabed6a0226bf3c1f" style="width: 100.0%; height: 100.0%;">Pitta Moorselbaan<br>Avg Price: €8.70</div>`)[0];
+                popup_dc9d9bd0c39d5f3b2eccbe922cd75800.setContent(html_792aa0fc112be4ffabed6a0226bf3c1f);
+            
+        
+
+        marker_5b4d418cd7ee56d7299b03c88f9ba213.bindPopup(popup_dc9d9bd0c39d5f3b2eccbe922cd75800)
+        ;
+
+        
+    
+    
+            var marker_fe445cdb61388dc2a789783014fc6675 = L.marker(
+                [50.8204079, 3.2843159],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_b56ce9ba20987a99c634dde13524ee35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f831fd21742d2121b692d4de32c2d6c6 = $(`<div id="html_f831fd21742d2121b692d4de32c2d6c6" style="width: 100.0%; height: 100.0%;">Mezopotamya<br>Avg Price: €12.50</div>`)[0];
+                popup_b56ce9ba20987a99c634dde13524ee35.setContent(html_f831fd21742d2121b692d4de32c2d6c6);
+            
+        
+
+        marker_fe445cdb61388dc2a789783014fc6675.bindPopup(popup_b56ce9ba20987a99c634dde13524ee35)
+        ;
+
+        
+    
+    
+            var marker_0f61ee00e1078a325a4654e80a2897e7 = L.marker(
+                [50.8126946, 4.9431257],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_1a8687a4b392630edd893ee3a1f9437a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c359f6bd723f1655172ac6d9c2c7b6dc = $(`<div id="html_c359f6bd723f1655172ac6d9c2c7b6dc" style="width: 100.0%; height: 100.0%;">Pizza Angelo<br>Avg Price: €7.72</div>`)[0];
+                popup_1a8687a4b392630edd893ee3a1f9437a.setContent(html_c359f6bd723f1655172ac6d9c2c7b6dc);
+            
+        
+
+        marker_0f61ee00e1078a325a4654e80a2897e7.bindPopup(popup_1a8687a4b392630edd893ee3a1f9437a)
+        ;
+
+        
+    
+    
+            var marker_aea8cb176442d6395266156e64cb98b4 = L.marker(
+                [51.071333, 3.7306784],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_1a84ded3f5a8734f3a567a560c81cf20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58305f7cf13d4a8fb1629694d889f569 = $(`<div id="html_58305f7cf13d4a8fb1629694d889f569" style="width: 100.0%; height: 100.0%;">Pizza Aurelia<br>Avg Price: €12.33</div>`)[0];
+                popup_1a84ded3f5a8734f3a567a560c81cf20.setContent(html_58305f7cf13d4a8fb1629694d889f569);
+            
+        
+
+        marker_aea8cb176442d6395266156e64cb98b4.bindPopup(popup_1a84ded3f5a8734f3a567a560c81cf20)
+        ;
+
+        
+    
+    
+            var marker_3f1238b85d3d793575ffdf8cd7f8f883 = L.marker(
+                [51.069962, 4.5316614],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ce5b1905556948888aedae99f4f23b8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95586444a1011d7f3570430d2ffdbef8 = $(`<div id="html_95586444a1011d7f3570430d2ffdbef8" style="width: 100.0%; height: 100.0%;">Pizza Bodrum<br>Avg Price: €12.00</div>`)[0];
+                popup_ce5b1905556948888aedae99f4f23b8d.setContent(html_95586444a1011d7f3570430d2ffdbef8);
+            
+        
+
+        marker_3f1238b85d3d793575ffdf8cd7f8f883.bindPopup(popup_ce5b1905556948888aedae99f4f23b8d)
+        ;
+
+        
+    
+    
+            var marker_0ff07993e5aa07ecd6bf7b26fa0c48a9 = L.marker(
+                [51.0996057, 4.2404586],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_91bd119c1188ca907f81a78e2357703d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ea7932657abb7318736c8367b98d1f9 = $(`<div id="html_1ea7932657abb7318736c8367b98d1f9" style="width: 100.0%; height: 100.0%;">Pizza Bulls<br>Avg Price: €11.50</div>`)[0];
+                popup_91bd119c1188ca907f81a78e2357703d.setContent(html_1ea7932657abb7318736c8367b98d1f9);
+            
+        
+
+        marker_0ff07993e5aa07ecd6bf7b26fa0c48a9.bindPopup(popup_91bd119c1188ca907f81a78e2357703d)
+        ;
+
+        
+    
+    
+            var marker_4a3091b5761ddfac2c19ef515ad669b1 = L.marker(
+                [51.21308, 4.257836],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_1d441520849f53d42bd470bec97a1e09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa81a2529e17cc0adc2fc0df29409f67 = $(`<div id="html_fa81a2529e17cc0adc2fc0df29409f67" style="width: 100.0%; height: 100.0%;">Pizza Company<br>Avg Price: €10.00</div>`)[0];
+                popup_1d441520849f53d42bd470bec97a1e09.setContent(html_fa81a2529e17cc0adc2fc0df29409f67);
+            
+        
+
+        marker_4a3091b5761ddfac2c19ef515ad669b1.bindPopup(popup_1d441520849f53d42bd470bec97a1e09)
+        ;
+
+        
+    
+    
+            var marker_c86d268b10ef6e05ad448804c937d9ec = L.marker(
+                [51.2561525, 4.0899404],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_5e91b57efebb0df74915b912b0c62647 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea99092815917a9c32e11be871cdb8a5 = $(`<div id="html_ea99092815917a9c32e11be871cdb8a5" style="width: 100.0%; height: 100.0%;">Pizza Corner<br>Avg Price: €16.00</div>`)[0];
+                popup_5e91b57efebb0df74915b912b0c62647.setContent(html_ea99092815917a9c32e11be871cdb8a5);
+            
+        
+
+        marker_c86d268b10ef6e05ad448804c937d9ec.bindPopup(popup_5e91b57efebb0df74915b912b0c62647)
+        ;
+
+        
+    
+    
+            var marker_91835d21061c38b307cfdfbc2e51a4e3 = L.marker(
+                [50.841038, 4.834623],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ff252e021b95cd936a774d6b3becf10f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdba008e1e27e32bc68ad421f807297e = $(`<div id="html_bdba008e1e27e32bc68ad421f807297e" style="width: 100.0%; height: 100.0%;">Pizza Desperado<br>Avg Price: €10.00</div>`)[0];
+                popup_ff252e021b95cd936a774d6b3becf10f.setContent(html_bdba008e1e27e32bc68ad421f807297e);
+            
+        
+
+        marker_91835d21061c38b307cfdfbc2e51a4e3.bindPopup(popup_ff252e021b95cd936a774d6b3becf10f)
+        ;
+
+        
+    
+    
+            var marker_c0b485a8d2cce1781100c59c9fa4e3ee = L.marker(
+                [50.8246451, 4.5132418],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_57cf9e41982e91a88d8cde34632cb2c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3c7ac0c1ec43add8a74c77d0a29a54c = $(`<div id="html_b3c7ac0c1ec43add8a74c77d0a29a54c" style="width: 100.0%; height: 100.0%;">Pizza Dino 21<br>Avg Price: €7.80</div>`)[0];
+                popup_57cf9e41982e91a88d8cde34632cb2c3.setContent(html_b3c7ac0c1ec43add8a74c77d0a29a54c);
+            
+        
+
+        marker_c0b485a8d2cce1781100c59c9fa4e3ee.bindPopup(popup_57cf9e41982e91a88d8cde34632cb2c3)
+        ;
+
+        
+    
+    
+            var marker_0573ea12fd1d9c087cfdd2055a7c28e9 = L.marker(
+                [51.0759414, 4.7886443],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_c4f0b5a0aaf2f6583270b0e973597d07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3307ce275f9fc06e0c73067a436328ef = $(`<div id="html_3307ce275f9fc06e0c73067a436328ef" style="width: 100.0%; height: 100.0%;">Pizza Efe Hulshout<br>Avg Price: €13.00</div>`)[0];
+                popup_c4f0b5a0aaf2f6583270b0e973597d07.setContent(html_3307ce275f9fc06e0c73067a436328ef);
+            
+        
+
+        marker_0573ea12fd1d9c087cfdd2055a7c28e9.bindPopup(popup_c4f0b5a0aaf2f6583270b0e973597d07)
+        ;
+
+        
+    
+    
+            var marker_73c1767fa3edeab8f971aec87bb597a4 = L.marker(
+                [51.1433937, 4.8599987],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_8581a5257ba676a49ddd698a44bb471a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afcf81724e2f24a6333d8b4ff4929134 = $(`<div id="html_afcf81724e2f24a6333d8b4ff4929134" style="width: 100.0%; height: 100.0%;">Pizza Efe Olen<br>Avg Price: €13.00</div>`)[0];
+                popup_8581a5257ba676a49ddd698a44bb471a.setContent(html_afcf81724e2f24a6333d8b4ff4929134);
+            
+        
+
+        marker_73c1767fa3edeab8f971aec87bb597a4.bindPopup(popup_8581a5257ba676a49ddd698a44bb471a)
+        ;
+
+        
+    
+    
+            var marker_a4776f19e90ebc238cadf79107cb6a99 = L.marker(
+                [51.037617, 4.4809136],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_65f82ef47f65d1a5cdd7e125ceb8e749 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cfec0563c775b1c59411c2135a1d690 = $(`<div id="html_5cfec0563c775b1c59411c2135a1d690" style="width: 100.0%; height: 100.0%;">Pizza Kebab Istanbul<br>Avg Price: €9.38</div>`)[0];
+                popup_65f82ef47f65d1a5cdd7e125ceb8e749.setContent(html_5cfec0563c775b1c59411c2135a1d690);
+            
+        
+
+        marker_a4776f19e90ebc238cadf79107cb6a99.bindPopup(popup_65f82ef47f65d1a5cdd7e125ceb8e749)
+        ;
+
+        
+    
+    
+            var marker_f2acf3903d302b8a99ace88bab19d86b = L.marker(
+                [51.0992448, 4.2342988],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_9fe7e84f4c8d172475d396a390a01b51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a82820edc4c0670b6ca320d973b0673f = $(`<div id="html_a82820edc4c0670b6ca320d973b0673f" style="width: 100.0%; height: 100.0%;">Pizza La Vince<br>Avg Price: €15.00</div>`)[0];
+                popup_9fe7e84f4c8d172475d396a390a01b51.setContent(html_a82820edc4c0670b6ca320d973b0673f);
+            
+        
+
+        marker_f2acf3903d302b8a99ace88bab19d86b.bindPopup(popup_9fe7e84f4c8d172475d396a390a01b51)
+        ;
+
+        
+    
+    
+            var marker_103d971a86983e9ade8620c7f8783636 = L.marker(
+                [51.2469449, 4.4435028],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_41de6d72763437c5e5945365b1610382 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c3d991b84ed3339fd55b84b5b548d98 = $(`<div id="html_8c3d991b84ed3339fd55b84b5b548d98" style="width: 100.0%; height: 100.0%;">Pizza Marmaris<br>Avg Price: €9.29</div>`)[0];
+                popup_41de6d72763437c5e5945365b1610382.setContent(html_8c3d991b84ed3339fd55b84b5b548d98);
+            
+        
+
+        marker_103d971a86983e9ade8620c7f8783636.bindPopup(popup_41de6d72763437c5e5945365b1610382)
+        ;
+
+        
+    
+    
+            var marker_16dea2b3a1fd381b539e0ef79e6f3dd4 = L.marker(
+                [50.98096, 5.492866],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ead555cf29a81b7055191d9713a2e7ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_925005dbec9c34e8d2025a657de9cf5a = $(`<div id="html_925005dbec9c34e8d2025a657de9cf5a" style="width: 100.0%; height: 100.0%;">Pizza Master Shop<br>Avg Price: €12.90</div>`)[0];
+                popup_ead555cf29a81b7055191d9713a2e7ff.setContent(html_925005dbec9c34e8d2025a657de9cf5a);
+            
+        
+
+        marker_16dea2b3a1fd381b539e0ef79e6f3dd4.bindPopup(popup_ead555cf29a81b7055191d9713a2e7ff)
+        ;
+
+        
+    
+    
+            var marker_e32608be6143597150e1ecd868af6a88 = L.marker(
+                [50.9196292, 3.8620404],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_a8c20a422b9ec8b5cd1c90bad23a413b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de41ce392b5fdab14b126bba330c6914 = $(`<div id="html_de41ce392b5fdab14b126bba330c6914" style="width: 100.0%; height: 100.0%;">Memo Pizza<br>Avg Price: €7.00</div>`)[0];
+                popup_a8c20a422b9ec8b5cd1c90bad23a413b.setContent(html_de41ce392b5fdab14b126bba330c6914);
+            
+        
+
+        marker_e32608be6143597150e1ecd868af6a88.bindPopup(popup_a8c20a422b9ec8b5cd1c90bad23a413b)
+        ;
+
+        
+    
+    
+            var marker_8ee117eef94b07433940daf70e9ddfc7 = L.marker(
+                [50.811497, 5.5949388],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_7737166d7704352c77738453ee5f6449 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_015da7ef356f351d1cda9e05f95cca75 = $(`<div id="html_015da7ef356f351d1cda9e05f95cca75" style="width: 100.0%; height: 100.0%;">Pizzeria Mi-Mi<br>Avg Price: €12.50</div>`)[0];
+                popup_7737166d7704352c77738453ee5f6449.setContent(html_015da7ef356f351d1cda9e05f95cca75);
+            
+        
+
+        marker_8ee117eef94b07433940daf70e9ddfc7.bindPopup(popup_7737166d7704352c77738453ee5f6449)
+        ;
+
+        
+    
+    
+            var marker_0d398b7ba087d4b43cbbd15dab93885f = L.marker(
+                [50.8418517, 4.9459863],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_117226627048def7be372a7938efec67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01180e0fe5b63d679eb1400f2a31c745 = $(`<div id="html_01180e0fe5b63d679eb1400f2a31c745" style="width: 100.0%; height: 100.0%;">Pizza Napoli<br>Avg Price: €8.00</div>`)[0];
+                popup_117226627048def7be372a7938efec67.setContent(html_01180e0fe5b63d679eb1400f2a31c745);
+            
+        
+
+        marker_0d398b7ba087d4b43cbbd15dab93885f.bindPopup(popup_117226627048def7be372a7938efec67)
+        ;
+
+        
+    
+    
+            var marker_2b9945b6a34ebd0ab0641bf12732c89d = L.marker(
+                [51.0405137, 3.725391],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_00bb27f3161193b96d4ea50589b5438e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c67ccd430572673c62bb04bb2d850eb = $(`<div id="html_9c67ccd430572673c62bb04bb2d850eb" style="width: 100.0%; height: 100.0%;">Pizza Overpoort<br>Avg Price: €13.25</div>`)[0];
+                popup_00bb27f3161193b96d4ea50589b5438e.setContent(html_9c67ccd430572673c62bb04bb2d850eb);
+            
+        
+
+        marker_2b9945b6a34ebd0ab0641bf12732c89d.bindPopup(popup_00bb27f3161193b96d4ea50589b5438e)
+        ;
+
+        
+    
+    
+            var marker_7a2458d338ac609a6f24a67b051811aa = L.marker(
+                [51.1272762, 4.2120871],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_df623a2874572a75042d53b3f43063cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f7074baef06159017d0b3e7a16534a9 = $(`<div id="html_3f7074baef06159017d0b3e7a16534a9" style="width: 100.0%; height: 100.0%;">Pizza Pamukkale<br>Avg Price: €15.00</div>`)[0];
+                popup_df623a2874572a75042d53b3f43063cc.setContent(html_3f7074baef06159017d0b3e7a16534a9);
+            
+        
+
+        marker_7a2458d338ac609a6f24a67b051811aa.bindPopup(popup_df623a2874572a75042d53b3f43063cc)
+        ;
+
+        
+    
+    
+            var marker_2bd180f9e00ca797a3c0fb0ef5a4e96a = L.marker(
+                [51.175496, 4.8243417],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_57ce02cdc5a1a0fa6810223b4e9f83e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8492ff10b5dac1643e564275694b201c = $(`<div id="html_8492ff10b5dac1643e564275694b201c" style="width: 100.0%; height: 100.0%;">Pizza Pita House<br>Avg Price: €15.20</div>`)[0];
+                popup_57ce02cdc5a1a0fa6810223b4e9f83e1.setContent(html_8492ff10b5dac1643e564275694b201c);
+            
+        
+
+        marker_2bd180f9e00ca797a3c0fb0ef5a4e96a.bindPopup(popup_57ce02cdc5a1a0fa6810223b4e9f83e1)
+        ;
+
+        
+    
+    
+            var marker_55efe23847dce3ed2a520ca8922ebb85 = L.marker(
+                [50.9236701, 4.692179],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_688562034af26cb02dab1fd2b1751aba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7edcd30ef5bcdc9ad48280c8b59906e1 = $(`<div id="html_7edcd30ef5bcdc9ad48280c8b59906e1" style="width: 100.0%; height: 100.0%;">Pizza Roma<br>Avg Price: €8.02</div>`)[0];
+                popup_688562034af26cb02dab1fd2b1751aba.setContent(html_7edcd30ef5bcdc9ad48280c8b59906e1);
+            
+        
+
+        marker_55efe23847dce3ed2a520ca8922ebb85.bindPopup(popup_688562034af26cb02dab1fd2b1751aba)
+        ;
+
+        
+    
+    
+            var marker_d9961329734c18858bd6716f7048ce11 = L.marker(
+                [51.03616, 4.475636],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_f37544ffab89be9f7f216e58ab189f6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93c7ce55f3e7ec88134ae9a26b6b1cfd = $(`<div id="html_93c7ce55f3e7ec88134ae9a26b6b1cfd" style="width: 100.0%; height: 100.0%;">Pizza Roma Mechelen<br>Avg Price: €10.94</div>`)[0];
+                popup_f37544ffab89be9f7f216e58ab189f6f.setContent(html_93c7ce55f3e7ec88134ae9a26b6b1cfd);
+            
+        
+
+        marker_d9961329734c18858bd6716f7048ce11.bindPopup(popup_f37544ffab89be9f7f216e58ab189f6f)
+        ;
+
+        
+    
+    
+            var marker_f66bc9679684dd62b6a9214ff3697efb = L.marker(
+                [51.0912225, 4.1360277],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_b490ccbd2231c408e54ebd4e8f4c4748 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab8e9c11f7852ae671b6ae7cb47908d9 = $(`<div id="html_ab8e9c11f7852ae671b6ae7cb47908d9" style="width: 100.0%; height: 100.0%;">Pizza Sara<br>Avg Price: €13.83</div>`)[0];
+                popup_b490ccbd2231c408e54ebd4e8f4c4748.setContent(html_ab8e9c11f7852ae671b6ae7cb47908d9);
+            
+        
+
+        marker_f66bc9679684dd62b6a9214ff3697efb.bindPopup(popup_b490ccbd2231c408e54ebd4e8f4c4748)
+        ;
+
+        
+    
+    
+            var marker_51c6ebb673ddaa8193d90133127c2163 = L.marker(
+                [50.936628, 4.362558],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_2df5f1c098ec30a99be53f24908d7faa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a4b65e0b5b1fccc48647e4f606767df = $(`<div id="html_0a4b65e0b5b1fccc48647e4f606767df" style="width: 100.0%; height: 100.0%;">Pizza Service<br>Avg Price: €16.00</div>`)[0];
+                popup_2df5f1c098ec30a99be53f24908d7faa.setContent(html_0a4b65e0b5b1fccc48647e4f606767df);
+            
+        
+
+        marker_51c6ebb673ddaa8193d90133127c2163.bindPopup(popup_2df5f1c098ec30a99be53f24908d7faa)
+        ;
+
+        
+    
+    
+            var marker_46386230ba479acec5eeb2ec67d919eb = L.marker(
+                [51.0242904, 4.4778211],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_7840a436cc582e610540c72b1116f1a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39dac134b729794c7f3a6a68401bfbbd = $(`<div id="html_39dac134b729794c7f3a6a68401bfbbd" style="width: 100.0%; height: 100.0%;">Pizza Service<br>Avg Price: €16.00</div>`)[0];
+                popup_7840a436cc582e610540c72b1116f1a9.setContent(html_39dac134b729794c7f3a6a68401bfbbd);
+            
+        
+
+        marker_46386230ba479acec5eeb2ec67d919eb.bindPopup(popup_7840a436cc582e610540c72b1116f1a9)
+        ;
+
+        
+    
+    
+            var marker_e75408c5d8c24c0565f8c12becccfee8 = L.marker(
+                [50.878939, 4.700268],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_27503d603b44c7f26d2fc8eabf59df90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c767a186eec0cce4fc1c914a3b89a9d1 = $(`<div id="html_c767a186eec0cce4fc1c914a3b89a9d1" style="width: 100.0%; height: 100.0%;">Pizza Sole Mio<br>Avg Price: €12.63</div>`)[0];
+                popup_27503d603b44c7f26d2fc8eabf59df90.setContent(html_c767a186eec0cce4fc1c914a3b89a9d1);
+            
+        
+
+        marker_e75408c5d8c24c0565f8c12becccfee8.bindPopup(popup_27503d603b44c7f26d2fc8eabf59df90)
+        ;
+
+        
+    
+    
+            var marker_c1f77ca313210d7ddd3c9f556d05ac91 = L.marker(
+                [51.1211835, 4.1964177],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_bd060a8a659bf876d64dee06d1e5cf5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af5c42ac3b667413d92473c6192bed5c = $(`<div id="html_af5c42ac3b667413d92473c6192bed5c" style="width: 100.0%; height: 100.0%;">Pizza Star<br>Avg Price: €13.81</div>`)[0];
+                popup_bd060a8a659bf876d64dee06d1e5cf5a.setContent(html_af5c42ac3b667413d92473c6192bed5c);
+            
+        
+
+        marker_c1f77ca313210d7ddd3c9f556d05ac91.bindPopup(popup_bd060a8a659bf876d64dee06d1e5cf5a)
+        ;
+
+        
+    
+    
+            var marker_62fd024d71f85b3b162198626312837f = L.marker(
+                [50.8745392, 4.6914768],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_cc0b955ea89c08f95ee124f01bc57ba4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_349f6a36a32e086dbf17da586f362bef = $(`<div id="html_349f6a36a32e086dbf17da586f362bef" style="width: 100.0%; height: 100.0%;">Pizza Ti Amo<br>Avg Price: €12.58</div>`)[0];
+                popup_cc0b955ea89c08f95ee124f01bc57ba4.setContent(html_349f6a36a32e086dbf17da586f362bef);
+            
+        
+
+        marker_62fd024d71f85b3b162198626312837f.bindPopup(popup_cc0b955ea89c08f95ee124f01bc57ba4)
+        ;
+
+        
+    
+    
+            var marker_18e55cda0effd17a8202dce8b23407e9 = L.marker(
+                [51.19369, 4.096637],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ad459eb63c28ab497fd5a1954ded6bdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99d4e7b5637796ee19c81962382d9315 = $(`<div id="html_99d4e7b5637796ee19c81962382d9315" style="width: 100.0%; height: 100.0%;">Pizza Times<br>Avg Price: €15.70</div>`)[0];
+                popup_ad459eb63c28ab497fd5a1954ded6bdb.setContent(html_99d4e7b5637796ee19c81962382d9315);
+            
+        
+
+        marker_18e55cda0effd17a8202dce8b23407e9.bindPopup(popup_ad459eb63c28ab497fd5a1954ded6bdb)
+        ;
+
+        
+    
+    
+            var marker_ab018c0d7777d100402caefccb76271f = L.marker(
+                [50.8532963, 4.3919577],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ae527cfb0c4c80f4b199f53150f00243 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50cccacaeb2ec6bec838f3051b6a8b3f = $(`<div id="html_50cccacaeb2ec6bec838f3051b6a8b3f" style="width: 100.0%; height: 100.0%;">Pizza Venise<br>Avg Price: €14.67</div>`)[0];
+                popup_ae527cfb0c4c80f4b199f53150f00243.setContent(html_50cccacaeb2ec6bec838f3051b6a8b3f);
+            
+        
+
+        marker_ab018c0d7777d100402caefccb76271f.bindPopup(popup_ae527cfb0c4c80f4b199f53150f00243)
+        ;
+
+        
+    
+    
+            var marker_6019f85943c5b782ff7806f362ba5fb8 = L.marker(
+                [51.2439049, 4.5922835],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_76ce4a8bc3bd1b4da1f40f1d4465c937 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c13f54d89191c32c2fdd91e985020ef = $(`<div id="html_6c13f54d89191c32c2fdd91e985020ef" style="width: 100.0%; height: 100.0%;">Pizza Verona<br>Avg Price: €9.36</div>`)[0];
+                popup_76ce4a8bc3bd1b4da1f40f1d4465c937.setContent(html_6c13f54d89191c32c2fdd91e985020ef);
+            
+        
+
+        marker_6019f85943c5b782ff7806f362ba5fb8.bindPopup(popup_76ce4a8bc3bd1b4da1f40f1d4465c937)
+        ;
+
+        
+    
+    
+            var marker_214063642a2413753c66141c73399437 = L.marker(
+                [51.2916329, 4.4938601],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_a951f311eb9f7ae002b3c8d57e197ac5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98e5e3786f96c7f18459468a3a89a62c = $(`<div id="html_98e5e3786f96c7f18459468a3a89a62c" style="width: 100.0%; height: 100.0%;">Pizza@Home<br>Avg Price: €16.25</div>`)[0];
+                popup_a951f311eb9f7ae002b3c8d57e197ac5.setContent(html_98e5e3786f96c7f18459468a3a89a62c);
+            
+        
+
+        marker_214063642a2413753c66141c73399437.bindPopup(popup_a951f311eb9f7ae002b3c8d57e197ac5)
+        ;
+
+        
+    
+    
+            var marker_0f92a3faab543dbcb7a303cac0aa2988 = L.marker(
+                [51.0905238, 4.9161535],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_f6ed756507f6d805ae669f18118c427b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_193eeffc9fca9348073db9af06fab191 = $(`<div id="html_193eeffc9fca9348073db9af06fab191" style="width: 100.0%; height: 100.0%;">De ster pizzeria & doner kebap<br>Avg Price: €10.20</div>`)[0];
+                popup_f6ed756507f6d805ae669f18118c427b.setContent(html_193eeffc9fca9348073db9af06fab191);
+            
+        
+
+        marker_0f92a3faab543dbcb7a303cac0aa2988.bindPopup(popup_f6ed756507f6d805ae669f18118c427b)
+        ;
+
+        
+    
+    
+            var marker_16c0c0f807ec357d8ca59193bd96130e = L.marker(
+                [50.9043522, 4.7222932],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_5fabc8f5b1c4d7dcfb62d66870835849 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_733279dc46d2d7ed701d0c04a0e040de = $(`<div id="html_733279dc46d2d7ed701d0c04a0e040de" style="width: 100.0%; height: 100.0%;">Pizzeria Evin<br>Avg Price: €11.38</div>`)[0];
+                popup_5fabc8f5b1c4d7dcfb62d66870835849.setContent(html_733279dc46d2d7ed701d0c04a0e040de);
+            
+        
+
+        marker_16c0c0f807ec357d8ca59193bd96130e.bindPopup(popup_5fabc8f5b1c4d7dcfb62d66870835849)
+        ;
+
+        
+    
+    
+            var marker_d22c45be170d5dfa9cae1c3c4d5f3cb6 = L.marker(
+                [50.8325241, 5.1042698],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_2a47ae6ddc839cbf4d474da952b03a6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_032253b38b857eba860af2002f358b59 = $(`<div id="html_032253b38b857eba860af2002f358b59" style="width: 100.0%; height: 100.0%;">Pizzeria Kebap Selin<br>Avg Price: €12.69</div>`)[0];
+                popup_2a47ae6ddc839cbf4d474da952b03a6d.setContent(html_032253b38b857eba860af2002f358b59);
+            
+        
+
+        marker_d22c45be170d5dfa9cae1c3c4d5f3cb6.bindPopup(popup_2a47ae6ddc839cbf4d474da952b03a6d)
+        ;
+
+        
+    
+    
+            var marker_a548987793e77eae09f633958ae591f2 = L.marker(
+                [50.8587785, 4.3702574],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_88091c708eb3a28dd8527fb4e4395db4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2582408a70e9b7d2a490d5f8ce91ba2 = $(`<div id="html_d2582408a70e9b7d2a490d5f8ce91ba2" style="width: 100.0%; height: 100.0%;">Pizzeria Koçak<br>Avg Price: €25.00</div>`)[0];
+                popup_88091c708eb3a28dd8527fb4e4395db4.setContent(html_d2582408a70e9b7d2a490d5f8ce91ba2);
+            
+        
+
+        marker_a548987793e77eae09f633958ae591f2.bindPopup(popup_88091c708eb3a28dd8527fb4e4395db4)
+        ;
+
+        
+    
+    
+            var marker_2e63fee781b80deac9421f1bfcc16364 = L.marker(
+                [50.9911804, 4.4926872],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ba4d270014702c0041900bb6a1d727dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bb996c60ea6bee47d63974550d7a9f0 = $(`<div id="html_7bb996c60ea6bee47d63974550d7a9f0" style="width: 100.0%; height: 100.0%;">Pizzeria Messina<br>Avg Price: €9.23</div>`)[0];
+                popup_ba4d270014702c0041900bb6a1d727dc.setContent(html_7bb996c60ea6bee47d63974550d7a9f0);
+            
+        
+
+        marker_2e63fee781b80deac9421f1bfcc16364.bindPopup(popup_ba4d270014702c0041900bb6a1d727dc)
+        ;
+
+        
+    
+    
+            var marker_ffa459771471b884435db666fb9214f4 = L.marker(
+                [50.8570353, 4.3692242],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_192eea23d3479fac263bd9f5b9ce351a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86b89c75db3c2462c76a498360d49164 = $(`<div id="html_86b89c75db3c2462c76a498360d49164" style="width: 100.0%; height: 100.0%;">Pizzeria Nasreddin<br>Avg Price: €12.00</div>`)[0];
+                popup_192eea23d3479fac263bd9f5b9ce351a.setContent(html_86b89c75db3c2462c76a498360d49164);
+            
+        
+
+        marker_ffa459771471b884435db666fb9214f4.bindPopup(popup_192eea23d3479fac263bd9f5b9ce351a)
+        ;
+
+        
+    
+    
+            var marker_9e7652795f8d100c6968bbab90d9c278 = L.marker(
+                [51.0229785, 5.3137589],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_0f3b9d9d16e0d7a496d49a102f6b2ff2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b75c3f2220be34b9c096efb22a2476f4 = $(`<div id="html_b75c3f2220be34b9c096efb22a2476f4" style="width: 100.0%; height: 100.0%;">Plaza Snacks<br>Avg Price: €14.25</div>`)[0];
+                popup_0f3b9d9d16e0d7a496d49a102f6b2ff2.setContent(html_b75c3f2220be34b9c096efb22a2476f4);
+            
+        
+
+        marker_9e7652795f8d100c6968bbab90d9c278.bindPopup(popup_0f3b9d9d16e0d7a496d49a102f6b2ff2)
+        ;
+
+        
+    
+    
+            var marker_4b66f99ae3e2b5714d1bc8c0899b2a34 = L.marker(
+                [50.861949, 5.6249084],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_1097b3819c1d6eb2233d69957041dba9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59f4dfd61f158f077f291c1d5b3662bc = $(`<div id="html_59f4dfd61f158f077f291c1d5b3662bc" style="width: 100.0%; height: 100.0%;">Populair<br>Avg Price: €18.67</div>`)[0];
+                popup_1097b3819c1d6eb2233d69957041dba9.setContent(html_59f4dfd61f158f077f291c1d5b3662bc);
+            
+        
+
+        marker_4b66f99ae3e2b5714d1bc8c0899b2a34.bindPopup(popup_1097b3819c1d6eb2233d69957041dba9)
+        ;
+
+        
+    
+    
+            var marker_9da573795ae6551e7df2c392aa87d928 = L.marker(
+                [50.9074031, 4.2053163],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_4c91af061f83f49b33dc1705f1f3fabe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fc74589134ebc4925cc5f142e2097c3 = $(`<div id="html_5fc74589134ebc4925cc5f142e2097c3" style="width: 100.0%; height: 100.0%;">Post'a Kebab<br>Avg Price: €8.00</div>`)[0];
+                popup_4c91af061f83f49b33dc1705f1f3fabe.setContent(html_5fc74589134ebc4925cc5f142e2097c3);
+            
+        
+
+        marker_9da573795ae6551e7df2c392aa87d928.bindPopup(popup_4c91af061f83f49b33dc1705f1f3fabe)
+        ;
+
+        
+    
+    
+            var marker_741f51fae0e08f927809e22651695113 = L.marker(
+                [50.8664689, 4.3777031],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_803d52a8a05459d974348e1a5e2982ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e74849193f68ebbb01287a2ba172a02d = $(`<div id="html_e74849193f68ebbb01287a2ba172a02d" style="width: 100.0%; height: 100.0%;">Qebaptore Drini<br>Avg Price: €7.25</div>`)[0];
+                popup_803d52a8a05459d974348e1a5e2982ab.setContent(html_e74849193f68ebbb01287a2ba172a02d);
+            
+        
+
+        marker_741f51fae0e08f927809e22651695113.bindPopup(popup_803d52a8a05459d974348e1a5e2982ab)
+        ;
+
+        
+    
+    
+            var marker_5207f672863a67f0cbe6d0757a11b0ce = L.marker(
+                [51.1736447, 5.5797481],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_f9c284bc0f36128505d1bf0972d942b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe7e2585247a004eea484900ec147922 = $(`<div id="html_fe7e2585247a004eea484900ec147922" style="width: 100.0%; height: 100.0%;">Rana<br>Avg Price: €9.11</div>`)[0];
+                popup_f9c284bc0f36128505d1bf0972d942b0.setContent(html_fe7e2585247a004eea484900ec147922);
+            
+        
+
+        marker_5207f672863a67f0cbe6d0757a11b0ce.bindPopup(popup_f9c284bc0f36128505d1bf0972d942b0)
+        ;
+
+        
+    
+    
+            var marker_07d090c9d44501ee89df2841f5518e15 = L.marker(
+                [50.920698, 3.2155599],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_21c394c7e0a091d942e5d3fa98549d72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20d9d17c6e8f6baa7108720c554f531e = $(`<div id="html_20d9d17c6e8f6baa7108720c554f531e" style="width: 100.0%; height: 100.0%;">Resto Snack Istanbul<br>Avg Price: €13.50</div>`)[0];
+                popup_21c394c7e0a091d942e5d3fa98549d72.setContent(html_20d9d17c6e8f6baa7108720c554f531e);
+            
+        
+
+        marker_07d090c9d44501ee89df2841f5518e15.bindPopup(popup_21c394c7e0a091d942e5d3fa98549d72)
+        ;
+
+        
+    
+    
+            var marker_cab884b024daed84c53a4622b3887c62 = L.marker(
+                [51.1383619, 4.9038049],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_60bf17bc3f769abfeb61f0b28f733bd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cc34ddc157d491b2f5d8f50542bd84e = $(`<div id="html_4cc34ddc157d491b2f5d8f50542bd84e" style="width: 100.0%; height: 100.0%;">Saray Pizza & Kebab<br>Avg Price: €11.36</div>`)[0];
+                popup_60bf17bc3f769abfeb61f0b28f733bd8.setContent(html_4cc34ddc157d491b2f5d8f50542bd84e);
+            
+        
+
+        marker_cab884b024daed84c53a4622b3887c62.bindPopup(popup_60bf17bc3f769abfeb61f0b28f733bd8)
+        ;
+
+        
+    
+    
+            var marker_3d3605d6bc9a78e6a40485f7aa1f4ccd = L.marker(
+                [50.8006942, 4.9563972],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_4cc8e3c1ce9f77a921cf3b63bf187452 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d65cc44cfc79b5976f2767866eaa6f8a = $(`<div id="html_d65cc44cfc79b5976f2767866eaa6f8a" style="width: 100.0%; height: 100.0%;">Saray<br>Avg Price: €13.00</div>`)[0];
+                popup_4cc8e3c1ce9f77a921cf3b63bf187452.setContent(html_d65cc44cfc79b5976f2767866eaa6f8a);
+            
+        
+
+        marker_3d3605d6bc9a78e6a40485f7aa1f4ccd.bindPopup(popup_4cc8e3c1ce9f77a921cf3b63bf187452)
+        ;
+
+        
+    
+    
+            var marker_8fa0ee8b9fb9fe926a16afbf4a503547 = L.marker(
+                [50.8084433, 5.4662026],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_54c69547f40300268c9a0aca3d3ab07b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf2f8024c6fddeace9b64968ed8c77d7 = $(`<div id="html_cf2f8024c6fddeace9b64968ed8c77d7" style="width: 100.0%; height: 100.0%;">Sebo<br>Avg Price: €10.67</div>`)[0];
+                popup_54c69547f40300268c9a0aca3d3ab07b.setContent(html_cf2f8024c6fddeace9b64968ed8c77d7);
+            
+        
+
+        marker_8fa0ee8b9fb9fe926a16afbf4a503547.bindPopup(popup_54c69547f40300268c9a0aca3d3ab07b)
+        ;
+
+        
+    
+    
+            var marker_baccc01c7eea14ed0c2f0d861049a1fb = L.marker(
+                [51.3187134, 5.0863443],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_dd25e945fbe4920394cbf4b2d3d1b1a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d3155398a48ccc8473b3cd20f401844 = $(`<div id="html_1d3155398a48ccc8473b3cd20f401844" style="width: 100.0%; height: 100.0%;">Side Kebap<br>Avg Price: €8.50</div>`)[0];
+                popup_dd25e945fbe4920394cbf4b2d3d1b1a7.setContent(html_1d3155398a48ccc8473b3cd20f401844);
+            
+        
+
+        marker_baccc01c7eea14ed0c2f0d861049a1fb.bindPopup(popup_dd25e945fbe4920394cbf4b2d3d1b1a7)
+        ;
+
+        
+    
+    
+            var marker_5e3bccc6fb959a80747a10798d6db579 = L.marker(
+                [51.1872698, 4.4285447],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_a479bb9f27a11245ad246ad3f56ffb59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a31e6b6149393bfb6d3bb0086eb2912 = $(`<div id="html_5a31e6b6149393bfb6d3bb0086eb2912" style="width: 100.0%; height: 100.0%;">Sila Snack & Pide<br>Avg Price: €10.14</div>`)[0];
+                popup_a479bb9f27a11245ad246ad3f56ffb59.setContent(html_5a31e6b6149393bfb6d3bb0086eb2912);
+            
+        
+
+        marker_5e3bccc6fb959a80747a10798d6db579.bindPopup(popup_a479bb9f27a11245ad246ad3f56ffb59)
+        ;
+
+        
+    
+    
+            var marker_3d640eda4289f12d2463614ecd14b0b6 = L.marker(
+                [50.9884214, 4.7820077],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_3a613f9d7898c8a76601affaa29a21e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2920b33e1b9eb19b9a512e8ce6e05c76 = $(`<div id="html_2920b33e1b9eb19b9a512e8ce6e05c76" style="width: 100.0%; height: 100.0%;">Pizzeria Sipan<br>Avg Price: €13.00</div>`)[0];
+                popup_3a613f9d7898c8a76601affaa29a21e2.setContent(html_2920b33e1b9eb19b9a512e8ce6e05c76);
+            
+        
+
+        marker_3d640eda4289f12d2463614ecd14b0b6.bindPopup(popup_3a613f9d7898c8a76601affaa29a21e2)
+        ;
+
+        
+    
+    
+            var marker_99a1c913155347573c3674687bc2bdb4 = L.marker(
+                [50.8847973, 4.4704521],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_1a47960a4768c68cdf6247c213522f7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3f4d4d265d306af6615d321ff75102a = $(`<div id="html_e3f4d4d265d306af6615d321ff75102a" style="width: 100.0%; height: 100.0%;">Snack Antalya<br>Avg Price: €14.50</div>`)[0];
+                popup_1a47960a4768c68cdf6247c213522f7c.setContent(html_e3f4d4d265d306af6615d321ff75102a);
+            
+        
+
+        marker_99a1c913155347573c3674687bc2bdb4.bindPopup(popup_1a47960a4768c68cdf6247c213522f7c)
+        ;
+
+        
+    
+    
+            var marker_c75370aec7931db4fe28ead2af0d3b53 = L.marker(
+                [50.864184, 4.3659068],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ad1dfdf2169af13528aa6f2a58a03c92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cadec1457599c30b8558019c10b37a3e = $(`<div id="html_cadec1457599c30b8558019c10b37a3e" style="width: 100.0%; height: 100.0%;">Snack Araff<br>Avg Price: €14.50</div>`)[0];
+                popup_ad1dfdf2169af13528aa6f2a58a03c92.setContent(html_cadec1457599c30b8558019c10b37a3e);
+            
+        
+
+        marker_c75370aec7931db4fe28ead2af0d3b53.bindPopup(popup_ad1dfdf2169af13528aa6f2a58a03c92)
+        ;
+
+        
+    
+    
+            var marker_6166d26ad91ae2bee2b8c07f592efbe8 = L.marker(
+                [50.8888894, 4.3389537],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_14aace3cd34ee7ee8c3c774e955a323c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fac5a13d93e716a4787ea869322cbda = $(`<div id="html_9fac5a13d93e716a4787ea869322cbda" style="width: 100.0%; height: 100.0%;">Snack Au Lunch<br>Avg Price: €12.00</div>`)[0];
+                popup_14aace3cd34ee7ee8c3c774e955a323c.setContent(html_9fac5a13d93e716a4787ea869322cbda);
+            
+        
+
+        marker_6166d26ad91ae2bee2b8c07f592efbe8.bindPopup(popup_14aace3cd34ee7ee8c3c774e955a323c)
+        ;
+
+        
+    
+    
+            var marker_bcae87406769c23c82b1e67a53afa42f = L.marker(
+                [50.9635393, 5.500285],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_c0031c5db36839b05b6ca8049082d023 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33a5de0110a85a0bc52cc8e2405ef034 = $(`<div id="html_33a5de0110a85a0bc52cc8e2405ef034" style="width: 100.0%; height: 100.0%;">Snack Aydin Genk<br>Avg Price: €10.25</div>`)[0];
+                popup_c0031c5db36839b05b6ca8049082d023.setContent(html_33a5de0110a85a0bc52cc8e2405ef034);
+            
+        
+
+        marker_bcae87406769c23c82b1e67a53afa42f.bindPopup(popup_c0031c5db36839b05b6ca8049082d023)
+        ;
+
+        
+    
+    
+            var marker_4bb6789fb0cfd9075029fe70baf212cb = L.marker(
+                [51.1045326, 5.1772193],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_2fb2c855dd6bb3064d340529aa775ce4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0bb89e9f8cceadbecd777fabfca7833 = $(`<div id="html_d0bb89e9f8cceadbecd777fabfca7833" style="width: 100.0%; height: 100.0%;">Snack Aydin Ham<br>Avg Price: €12.71</div>`)[0];
+                popup_2fb2c855dd6bb3064d340529aa775ce4.setContent(html_d0bb89e9f8cceadbecd777fabfca7833);
+            
+        
+
+        marker_4bb6789fb0cfd9075029fe70baf212cb.bindPopup(popup_2fb2c855dd6bb3064d340529aa775ce4)
+        ;
+
+        
+    
+    
+            var marker_7f4217a24eef95e48d725ea5ad6579f9 = L.marker(
+                [50.8519286, 4.3554927],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_3d01d6183c86610e6f4a0f565cc86c5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed05648c951a6ff9f5b295e7f24f748c = $(`<div id="html_ed05648c951a6ff9f5b295e7f24f748c" style="width: 100.0%; height: 100.0%;">Snack Delice<br>Avg Price: €5.50</div>`)[0];
+                popup_3d01d6183c86610e6f4a0f565cc86c5a.setContent(html_ed05648c951a6ff9f5b295e7f24f748c);
+            
+        
+
+        marker_7f4217a24eef95e48d725ea5ad6579f9.bindPopup(popup_3d01d6183c86610e6f4a0f565cc86c5a)
+        ;
+
+        
+    
+    
+            var marker_74f5351066efcca75f03df9072daed8e = L.marker(
+                [51.0304194, 3.8018376],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_0590d85ebf92405d6da333588d5e6723 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cef9fc3686be1cf8d1248d84ca3cdc3 = $(`<div id="html_6cef9fc3686be1cf8d1248d84ca3cdc3" style="width: 100.0%; height: 100.0%;">Snack Dodo<br>Avg Price: €8.09</div>`)[0];
+                popup_0590d85ebf92405d6da333588d5e6723.setContent(html_6cef9fc3686be1cf8d1248d84ca3cdc3);
+            
+        
+
+        marker_74f5351066efcca75f03df9072daed8e.bindPopup(popup_0590d85ebf92405d6da333588d5e6723)
+        ;
+
+        
+    
+    
+            var marker_424a419f2733f9e93872480ae81490f2 = L.marker(
+                [50.8297666, 4.3786763],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_b9c4d763f5cf8ffe06b7c0051bb5f779 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6012572d4366260d349a1a3de29d8b24 = $(`<div id="html_6012572d4366260d349a1a3de29d8b24" style="width: 100.0%; height: 100.0%;">Snack La Couronne<br>Avg Price: €13.00</div>`)[0];
+                popup_b9c4d763f5cf8ffe06b7c0051bb5f779.setContent(html_6012572d4366260d349a1a3de29d8b24);
+            
+        
+
+        marker_424a419f2733f9e93872480ae81490f2.bindPopup(popup_b9c4d763f5cf8ffe06b7c0051bb5f779)
+        ;
+
+        
+    
+    
+            var marker_13c5342750bc4fef3aeab53096d24f1d = L.marker(
+                [50.8536962, 4.3882244],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_543dce4d55f573fdaa659499afd5fc23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10b19dd082288e95a498b783fe663fdc = $(`<div id="html_10b19dd082288e95a498b783fe663fdc" style="width: 100.0%; height: 100.0%;">Snack Marmara<br>Avg Price: €11.33</div>`)[0];
+                popup_543dce4d55f573fdaa659499afd5fc23.setContent(html_10b19dd082288e95a498b783fe663fdc);
+            
+        
+
+        marker_13c5342750bc4fef3aeab53096d24f1d.bindPopup(popup_543dce4d55f573fdaa659499afd5fc23)
+        ;
+
+        
+    
+    
+            var marker_10ecf4cf7c4a699ad3e6a5a804b28c13 = L.marker(
+                [50.8078851, 4.3164883],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_b38b2c59311c50ba2624db29e33256e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_240b5520725dc4981c2849f31ec6d8dd = $(`<div id="html_240b5520725dc4981c2849f31ec6d8dd" style="width: 100.0%; height: 100.0%;">Snack neerstalle<br>Avg Price: €7.20</div>`)[0];
+                popup_b38b2c59311c50ba2624db29e33256e4.setContent(html_240b5520725dc4981c2849f31ec6d8dd);
+            
+        
+
+        marker_10ecf4cf7c4a699ad3e6a5a804b28c13.bindPopup(popup_b38b2c59311c50ba2624db29e33256e4)
+        ;
+
+        
+    
+    
+            var marker_200b62f8c6b45a6d9d1f51a91273aa74 = L.marker(
+                [50.8695437, 4.3328935],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_4cfd7fe1a67088c544fd93741d4a7c0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db456c78d46631b99a4a081bdb3f1504 = $(`<div id="html_db456c78d46631b99a4a081bdb3f1504" style="width: 100.0%; height: 100.0%;">Snack O Tac<br>Avg Price: €15.00</div>`)[0];
+                popup_4cfd7fe1a67088c544fd93741d4a7c0d.setContent(html_db456c78d46631b99a4a081bdb3f1504);
+            
+        
+
+        marker_200b62f8c6b45a6d9d1f51a91273aa74.bindPopup(popup_4cfd7fe1a67088c544fd93741d4a7c0d)
+        ;
+
+        
+    
+    
+            var marker_d31acd88be1f83fd2d5a6f555883946a = L.marker(
+                [51.002115, 4.3020346],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_7432bd04b84c5b3d85e71004816d38b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bce56a784b54a7c5defef9822a1a5f7c = $(`<div id="html_bce56a784b54a7c5defef9822a1a5f7c" style="width: 100.0%; height: 100.0%;">Snack Pitta 't Hoeksken<br>Avg Price: €10.50</div>`)[0];
+                popup_7432bd04b84c5b3d85e71004816d38b1.setContent(html_bce56a784b54a7c5defef9822a1a5f7c);
+            
+        
+
+        marker_d31acd88be1f83fd2d5a6f555883946a.bindPopup(popup_7432bd04b84c5b3d85e71004816d38b1)
+        ;
+
+        
+    
+    
+            var marker_e2324c2e3d8ce4a583464139043587a7 = L.marker(
+                [50.9142631, 4.1931411],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_9c43fdd19d850bec986a2292472ac00e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca5e125ea19236bb0cd3f7c325656b1a = $(`<div id="html_ca5e125ea19236bb0cd3f7c325656b1a" style="width: 100.0%; height: 100.0%;">Snack Best Grill<br>Avg Price: €8.75</div>`)[0];
+                popup_9c43fdd19d850bec986a2292472ac00e.setContent(html_ca5e125ea19236bb0cd3f7c325656b1a);
+            
+        
+
+        marker_e2324c2e3d8ce4a583464139043587a7.bindPopup(popup_9c43fdd19d850bec986a2292472ac00e)
+        ;
+
+        
+    
+    
+            var marker_fe49154cfd274d5b9483b3dbec8b46f8 = L.marker(
+                [50.9984585, 3.3270373],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_8e48e6e50929353264cc927cd8ef06ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3dc91b5eefd7b421cc630482a85a6adb = $(`<div id="html_3dc91b5eefd7b421cc630482a85a6adb" style="width: 100.0%; height: 100.0%;">Snack Tielt<br>Avg Price: €8.00</div>`)[0];
+                popup_8e48e6e50929353264cc927cd8ef06ca.setContent(html_3dc91b5eefd7b421cc630482a85a6adb);
+            
+        
+
+        marker_fe49154cfd274d5b9483b3dbec8b46f8.bindPopup(popup_8e48e6e50929353264cc927cd8ef06ca)
+        ;
+
+        
+    
+    
+            var marker_5690fc662ac2734be0b3cef8ae08b60e = L.marker(
+                [51.1866205, 5.1177366],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_71257337a3ea039b3e2ee04982075478 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6437ae00d0df4b9912447e3ccddfd5e9 = $(`<div id="html_6437ae00d0df4b9912447e3ccddfd5e9" style="width: 100.0%; height: 100.0%;">Snack Unal<br>Avg Price: €12.00</div>`)[0];
+                popup_71257337a3ea039b3e2ee04982075478.setContent(html_6437ae00d0df4b9912447e3ccddfd5e9);
+            
+        
+
+        marker_5690fc662ac2734be0b3cef8ae08b60e.bindPopup(popup_71257337a3ea039b3e2ee04982075478)
+        ;
+
+        
+    
+    
+            var marker_c51f7ee6932fd7a7fdf82c4a0f38cd46 = L.marker(
+                [50.9945976, 4.7097848],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_d499c383189ee0669d516231f179b400 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0559498206810e4d6f781d510bdae9e3 = $(`<div id="html_0559498206810e4d6f781d510bdae9e3" style="width: 100.0%; height: 100.0%;">Snackbar Tasty<br>Avg Price: €10.00</div>`)[0];
+                popup_d499c383189ee0669d516231f179b400.setContent(html_0559498206810e4d6f781d510bdae9e3);
+            
+        
+
+        marker_c51f7ee6932fd7a7fdf82c4a0f38cd46.bindPopup(popup_d499c383189ee0669d516231f179b400)
+        ;
+
+        
+    
+    
+            var marker_66c27b34571df5ab4e4280c2cae103fb = L.marker(
+                [50.9644592, 5.69626],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_e38747aa4326d66c8c3138853770f43e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2015f3da7cb036f9617b250960f49b5 = $(`<div id="html_e2015f3da7cb036f9617b250960f49b5" style="width: 100.0%; height: 100.0%;">Sofra<br>Avg Price: €8.62</div>`)[0];
+                popup_e38747aa4326d66c8c3138853770f43e.setContent(html_e2015f3da7cb036f9617b250960f49b5);
+            
+        
+
+        marker_66c27b34571df5ab4e4280c2cae103fb.bindPopup(popup_e38747aa4326d66c8c3138853770f43e)
+        ;
+
+        
+    
+    
+            var marker_c82db84f7bc98f03ce7de7128c7fc32f = L.marker(
+                [51.0534807, 4.8821208],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_9a9f54ca36c8a9b6edee2ae7555fdf45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0e9023d63d40baace6ad778e5c1f8b5 = $(`<div id="html_d0e9023d63d40baace6ad778e5c1f8b5" style="width: 100.0%; height: 100.0%;">King Of Kebab<br>Avg Price: €11.25</div>`)[0];
+                popup_9a9f54ca36c8a9b6edee2ae7555fdf45.setContent(html_d0e9023d63d40baace6ad778e5c1f8b5);
+            
+        
+
+        marker_c82db84f7bc98f03ce7de7128c7fc32f.bindPopup(popup_9a9f54ca36c8a9b6edee2ae7555fdf45)
+        ;
+
+        
+    
+    
+            var marker_cd00d0b2dcb981b1008b2a5e4b7bb699 = L.marker(
+                [51.218858, 4.4050159],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_9cf5ad39cececa1d22f844caa3593a36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89a78f49f9e6159272554be1bbb8b747 = $(`<div id="html_89a78f49f9e6159272554be1bbb8b747" style="width: 100.0%; height: 100.0%;">Sultan Kebap<br>Avg Price: €7.00</div>`)[0];
+                popup_9cf5ad39cececa1d22f844caa3593a36.setContent(html_89a78f49f9e6159272554be1bbb8b747);
+            
+        
+
+        marker_cd00d0b2dcb981b1008b2a5e4b7bb699.bindPopup(popup_9cf5ad39cececa1d22f844caa3593a36)
+        ;
+
+        
+    
+    
+            var marker_29be236dc0aba0200e0354d465516927 = L.marker(
+                [51.018772, 4.483109],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_2a300f4dad88b1b1e51ee2979e727f8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d62bc34b1c8a8d4d1ac833da8329f46e = $(`<div id="html_d62bc34b1c8a8d4d1ac833da8329f46e" style="width: 100.0%; height: 100.0%;">Sultan<br>Avg Price: €12.00</div>`)[0];
+                popup_2a300f4dad88b1b1e51ee2979e727f8e.setContent(html_d62bc34b1c8a8d4d1ac833da8329f46e);
+            
+        
+
+        marker_29be236dc0aba0200e0354d465516927.bindPopup(popup_2a300f4dad88b1b1e51ee2979e727f8e)
+        ;
+
+        
+    
+    
+            var marker_9eb7c8d56fd064397250dba5f04ee7e2 = L.marker(
+                [50.8731519, 4.3869141],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_37a35b509b13a9858fef233f42d48118 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63a305ea0204c428b60dbab5d5f4b169 = $(`<div id="html_63a305ea0204c428b60dbab5d5f4b169" style="width: 100.0%; height: 100.0%;">Suslu by Tuna<br>Avg Price: €5.50</div>`)[0];
+                popup_37a35b509b13a9858fef233f42d48118.setContent(html_63a305ea0204c428b60dbab5d5f4b169);
+            
+        
+
+        marker_9eb7c8d56fd064397250dba5f04ee7e2.bindPopup(popup_37a35b509b13a9858fef233f42d48118)
+        ;
+
+        
+    
+    
+            var marker_a43d996dd199c97d39d4a849c8841bfc = L.marker(
+                [50.9323878, 5.3422072],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_7fb973f3774885505032e4946ed7876e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32586aef7f11bacd4451d3457f6a8cca = $(`<div id="html_32586aef7f11bacd4451d3457f6a8cca" style="width: 100.0%; height: 100.0%;">Seven Kebap 7<br>Avg Price: €12.76</div>`)[0];
+                popup_7fb973f3774885505032e4946ed7876e.setContent(html_32586aef7f11bacd4451d3457f6a8cca);
+            
+        
+
+        marker_a43d996dd199c97d39d4a849c8841bfc.bindPopup(popup_7fb973f3774885505032e4946ed7876e)
+        ;
+
+        
+    
+    
+            var marker_a9bdc1a37ede319942b05100b0e481f5 = L.marker(
+                [50.7841913, 5.474018],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_d0405c1933cce34abe3a383d79bec5f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f8310d5affbfcded336d33421dca2c4 = $(`<div id="html_0f8310d5affbfcded336d33421dca2c4" style="width: 100.0%; height: 100.0%;">'t Hoekske<br>Avg Price: €9.75</div>`)[0];
+                popup_d0405c1933cce34abe3a383d79bec5f0.setContent(html_0f8310d5affbfcded336d33421dca2c4);
+            
+        
+
+        marker_a9bdc1a37ede319942b05100b0e481f5.bindPopup(popup_d0405c1933cce34abe3a383d79bec5f0)
+        ;
+
+        
+    
+    
+            var marker_4e97e4a3117c7b168b81e91ebf2f79cb = L.marker(
+                [51.0232475, 4.4749649],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_7c17c6a850a29d1dfc6ced79ddea20d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b29959925301be7669142605108c5df = $(`<div id="html_1b29959925301be7669142605108c5df" style="width: 100.0%; height: 100.0%;">Taste King Pizza<br>Avg Price: €10.28</div>`)[0];
+                popup_7c17c6a850a29d1dfc6ced79ddea20d0.setContent(html_1b29959925301be7669142605108c5df);
+            
+        
+
+        marker_4e97e4a3117c7b168b81e91ebf2f79cb.bindPopup(popup_7c17c6a850a29d1dfc6ced79ddea20d0)
+        ;
+
+        
+    
+    
+            var marker_8377b4afcd5a934bbf46e171121b5e39 = L.marker(
+                [50.8752133, 4.7079149],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_8ab2293702de1c669f4b94d5da327071 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a61f2c22d72fc241b0c8d5f46f5c2c59 = $(`<div id="html_a61f2c22d72fc241b0c8d5f46f5c2c59" style="width: 100.0%; height: 100.0%;">Tasty Food Vesalius<br>Avg Price: €10.50</div>`)[0];
+                popup_8ab2293702de1c669f4b94d5da327071.setContent(html_a61f2c22d72fc241b0c8d5f46f5c2c59);
+            
+        
+
+        marker_8377b4afcd5a934bbf46e171121b5e39.bindPopup(popup_8ab2293702de1c669f4b94d5da327071)
+        ;
+
+        
+    
+    
+            var marker_60a5aea69ffd4458eb893c2564978e55 = L.marker(
+                [50.9263663, 5.3399257],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_a1f8912b06aecc4ebad986081eee8e81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a1cb48319d3cf39b1b7d0d788a82ff6 = $(`<div id="html_4a1cb48319d3cf39b1b7d0d788a82ff6" style="width: 100.0%; height: 100.0%;">TAT<br>Avg Price: €11.29</div>`)[0];
+                popup_a1f8912b06aecc4ebad986081eee8e81.setContent(html_4a1cb48319d3cf39b1b7d0d788a82ff6);
+            
+        
+
+        marker_60a5aea69ffd4458eb893c2564978e55.bindPopup(popup_a1f8912b06aecc4ebad986081eee8e81)
+        ;
+
+        
+    
+    
+            var marker_9e109edd652e26897922ef78f4e0d91a = L.marker(
+                [50.8634253, 4.3664397],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_aee29c0fe961dd66e0f8bb8ea28a6ccb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fc7ca080b480d8ec2139bbab6bc928c = $(`<div id="html_5fc7ca080b480d8ec2139bbab6bc928c" style="width: 100.0%; height: 100.0%;">Tekince Kebap<br>Avg Price: €10.67</div>`)[0];
+                popup_aee29c0fe961dd66e0f8bb8ea28a6ccb.setContent(html_5fc7ca080b480d8ec2139bbab6bc928c);
+            
+        
+
+        marker_9e109edd652e26897922ef78f4e0d91a.bindPopup(popup_aee29c0fe961dd66e0f8bb8ea28a6ccb)
+        ;
+
+        
+    
+    
+            var marker_5fd586f622858cc5800763819526b2b6 = L.marker(
+                [51.161282, 4.669973],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_b4376978cfc4c0d12d5d442e925b32b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59be41454e4fa8b6a0286665b8c0e0b7 = $(`<div id="html_59be41454e4fa8b6a0286665b8c0e0b7" style="width: 100.0%; height: 100.0%;">Top Snack<br>Avg Price: €14.00</div>`)[0];
+                popup_b4376978cfc4c0d12d5d442e925b32b3.setContent(html_59be41454e4fa8b6a0286665b8c0e0b7);
+            
+        
+
+        marker_5fd586f622858cc5800763819526b2b6.bindPopup(popup_b4376978cfc4c0d12d5d442e925b32b3)
+        ;
+
+        
+    
+    
+            var marker_16b793e545fa7bf1817ce1a65cb614e5 = L.marker(
+                [50.7709132, 3.8756524],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_4b1809879d4ce5007b299a675784de1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ed396a0b85c56aedd0b8215c7c722b9 = $(`<div id="html_5ed396a0b85c56aedd0b8215c7c722b9" style="width: 100.0%; height: 100.0%;">Toronto Pizza & Burger<br>Avg Price: €8.22</div>`)[0];
+                popup_4b1809879d4ce5007b299a675784de1d.setContent(html_5ed396a0b85c56aedd0b8215c7c722b9);
+            
+        
+
+        marker_16b793e545fa7bf1817ce1a65cb614e5.bindPopup(popup_4b1809879d4ce5007b299a675784de1d)
+        ;
+
+        
+    
+    
+            var marker_8917d318acdff601426d945555ca4d65 = L.marker(
+                [51.2043698, 4.3918583],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_35db5217a5b354965833b84a87bee99f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f399d323b92acdd9ce75ba42ab348842 = $(`<div id="html_f399d323b92acdd9ce75ba42ab348842" style="width: 100.0%; height: 100.0%;">Troy & Mezze<br>Avg Price: €17.00</div>`)[0];
+                popup_35db5217a5b354965833b84a87bee99f.setContent(html_f399d323b92acdd9ce75ba42ab348842);
+            
+        
+
+        marker_8917d318acdff601426d945555ca4d65.bindPopup(popup_35db5217a5b354965833b84a87bee99f)
+        ;
+
+        
+    
+    
+            var marker_cd1a8c3e3c1cc4a0a3bef9b8dd888a81 = L.marker(
+                [50.7738295, 4.886823],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_290744bedf46e0f1116dc6ec647e8aea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_764394f9f645a3b768deda7fdd22555a = $(`<div id="html_764394f9f645a3b768deda7fdd22555a" style="width: 100.0%; height: 100.0%;">Twins<br>Avg Price: €8.57</div>`)[0];
+                popup_290744bedf46e0f1116dc6ec647e8aea.setContent(html_764394f9f645a3b768deda7fdd22555a);
+            
+        
+
+        marker_cd1a8c3e3c1cc4a0a3bef9b8dd888a81.bindPopup(popup_290744bedf46e0f1116dc6ec647e8aea)
+        ;
+
+        
+    
+    
+            var marker_72e12120bde07248c9524d4425aae025 = L.marker(
+                [51.030933, 5.3715848],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_559c9e3e69bd45e148217cee50a0b786 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc0902917dc73c7e541e06e8a908a4b1 = $(`<div id="html_cc0902917dc73c7e541e06e8a908a4b1" style="width: 100.0%; height: 100.0%;">Ümit Pizza Kebab Grillroom<br>Avg Price: €7.50</div>`)[0];
+                popup_559c9e3e69bd45e148217cee50a0b786.setContent(html_cc0902917dc73c7e541e06e8a908a4b1);
+            
+        
+
+        marker_72e12120bde07248c9524d4425aae025.bindPopup(popup_559c9e3e69bd45e148217cee50a0b786)
+        ;
+
+        
+    
+    
+            var marker_49ea6f2660aadfb8ebf0d5df84f75a85 = L.marker(
+                [50.9995553, 5.3320171],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_9834461198693602205a6fbe146d83e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4abbbe114205446f13413c66b6badcc9 = $(`<div id="html_4abbbe114205446f13413c66b6badcc9" style="width: 100.0%; height: 100.0%;">Venus<br>Avg Price: €14.73</div>`)[0];
+                popup_9834461198693602205a6fbe146d83e7.setContent(html_4abbbe114205446f13413c66b6badcc9);
+            
+        
+
+        marker_49ea6f2660aadfb8ebf0d5df84f75a85.bindPopup(popup_9834461198693602205a6fbe146d83e7)
+        ;
+
+        
+    
+    
+            var marker_b6f225a28725780b08a65782a9e34acb = L.marker(
+                [51.0874035, 5.2196722],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_b7ffe47012b90122839c30f835b1bdd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ec1e3e9a5e45f049a2b500f66a91187 = $(`<div id="html_4ec1e3e9a5e45f049a2b500f66a91187" style="width: 100.0%; height: 100.0%;">Venus 7<br>Avg Price: €9.00</div>`)[0];
+                popup_b7ffe47012b90122839c30f835b1bdd3.setContent(html_4ec1e3e9a5e45f049a2b500f66a91187);
+            
+        
+
+        marker_b6f225a28725780b08a65782a9e34acb.bindPopup(popup_b7ffe47012b90122839c30f835b1bdd3)
+        ;
+
+        
+    
+    
+            var marker_3e9bb1d09c27b46570e13b9d8a826b7a = L.marker(
+                [51.055254, 5.2738908],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_ae3af2e77806e1fa5b0618879dc08c1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac71bea10ffa06f90bcd21fbd5498a42 = $(`<div id="html_ac71bea10ffa06f90bcd21fbd5498a42" style="width: 100.0%; height: 100.0%;">Venus 8<br>Avg Price: €9.00</div>`)[0];
+                popup_ae3af2e77806e1fa5b0618879dc08c1b.setContent(html_ac71bea10ffa06f90bcd21fbd5498a42);
+            
+        
+
+        marker_3e9bb1d09c27b46570e13b9d8a826b7a.bindPopup(popup_ae3af2e77806e1fa5b0618879dc08c1b)
+        ;
+
+        
+    
+    
+            var marker_8562953d35c178be8203fc712e489de1 = L.marker(
+                [51.219982, 4.4150385],
+                {
+}
+            ).addTo(marker_cluster_a8aee90151259cf02d60331b69c88a1c);
+        
+    
+        var popup_bb6bfc8bf36d83d697c2e47ae7db9ef9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a5ebf986b3dcc37ab0a937286fcc621 = $(`<div id="html_4a5ebf986b3dcc37ab0a937286fcc621" style="width: 100.0%; height: 100.0%;">What the Kebab<br>Avg Price: €8.02</div>`)[0];
+                popup_bb6bfc8bf36d83d697c2e47ae7db9ef9.setContent(html_4a5ebf986b3dcc37ab0a937286fcc621);
+            
+        
+
+        marker_8562953d35c178be8203fc712e489de1.bindPopup(popup_bb6bfc8bf36d83d697c2e47ae7db9ef9)
+        ;
+
+        
+    
+    
+            marker_cluster_a8aee90151259cf02d60331b69c88a1c.addTo(map_858cab1e805d23f9eb00d4014ffae548);
+        
+</script>
+</html>
