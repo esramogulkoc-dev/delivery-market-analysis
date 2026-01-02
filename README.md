@@ -44,13 +44,23 @@ delivery-market-analysis/
 │   └─ takeaway.db               # SQLite database containing restaurant, menu, and location data
 │
 ├─ docs/
-│   └─ schema_notes.md           # Notes about database schema and table relationships
+│   └─ schema_notes.md    
+      ### 📍 Interactive Restaurant Map
+
+      The interactive restaurant distribution map is provided as an HTML file.
+
+     How to view:
+    1. Open `delivery_map.html` in this repository
+    2. Click **Download raw file**
+    3. Open the downloaded file in your browser
+
+
 │
-├─ notebooks/questions
+├─ sql/questions
 │   └─ *.ipynb                   # Jupyter notebooks with SQL queries and analysis
 │
-├─ maps/
-│   └─ *.html                    # HTML files open with chrome
+├─ 
+│   └─ Delivery-Market-Analysis-.pdf       # presentation         
 │
 └─ README.md                     # Project overview and instructions
 
@@ -88,16 +98,6 @@ This project addresses **10 key questions** including:
 
 10. **Original question 2: Cuisine types with the highest average delivery fee per city**  
     - Determine which cuisines cost the most for delivery in different cities.
-
-### 📍 Interactive Restaurant Map
-
-The interactive restaurant distribution map is provided as an HTML file.
-
-How to view:
-1. Open `delivery_map.html` in this repository
-2. Click **Download raw file**
-3. Open the downloaded file in your browser
-
 
 ## Notes
 
