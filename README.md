@@ -45,7 +45,7 @@ delivery-market-analysis/
 │
 ├─ docs/
 │   └─ schema_notes.md    
-      ### 📍 Interactive Restaurant Map
+       maps ### 📍 Interactive Restaurant Map
 
       The interactive restaurant distribution map is provided as an HTML file.
 
