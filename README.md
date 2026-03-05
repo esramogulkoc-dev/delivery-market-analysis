@@ -1,107 +1,64 @@
-# Delivery Market Analysis
+# 🛵 Delivery Market Analysis (Belgium)
+**Data-Driven Logistics & Pricing Insights using SQL & Python**
 
 **Repository:** `delivery-market-analysis`  
 **Duration:** 4 days  
 **Deadline:** 02/01/2026 at 4PM  
 **Team:** Solo 
 
-## Mission Objectives
+## 📌 Project Overview
+The primary objective of this project was to master **SQL querying** by analyzing a real-world dataset from the Belgian food delivery market (`takeaway.db`). The project evaluates restaurant performance, menu pricing strategies, and geographical delivery gaps to provide actionable business intelligence.
 
-Enhance your data engineering and analytical skills by:
+---
 
-- Working with SQL operations like:
-  - `SELECT`
-  - `JOIN`
-  - `GROUP BY`
-  - Aggregations (e.g., `AVG`, `SUM`)
-  - Advanced queries
-- Or using PowerBI for visualization
-- Exploring geospatial data analysis
-- Extracting and visualizing insights from food delivery datasets
-- Building data storytelling and presentation skills
+## 🎯 Executive Summary (STAR Method)
 
-## Learning Objectives
+* **Situation:** The food delivery market in Belgium is highly competitive, yet data on restaurant density, pricing distribution, and delivery efficiency was fragmented and raw.
+* **Task:** Clean, query, and analyze the `takeaway.db` database to identify market trends, pricing benchmarks, and underserved "dead zones" for logistics optimization.
+* **Action:** * Authored complex **SQL queries** (Joins, CTEs, Aggregations) to extract insights.
+    * Utilized **Python (Pandas, Matplotlib)** for data visualization.
+    * Developed **Geospatial Maps (Folium)** to visualize restaurant coverage and delivery fees.
+* **Result:** Derived strategic insights including a custom "True Value" metric and identified 3 key regions with low competition for expansion.
 
-- Understand and query SQL database structures
-- Optimize SQL queries for performance
-- Visualize data insights using Python or PowerBI
-- Deliver impactful presentations with data-driven narratives
+---
 
-## The Mission
-
-We are analyzing delivery data to uncover actionable insights for restaurant partners and consumers. The objective is to explore trends, customer preferences, and market dynamics in the food delivery space.  
-
-Tasks include:  
-1. Conduct exploratory analysis  
-2. Summarize findings  
-3. Present actionable insights
-
-## Repository Structure
-
+## 📁 Repository Structure
+```bash
 delivery-market-analysis/
 │
 ├─ data/
-│   └─ takeaway.db               # SQLite database containing restaurant, menu, and location data
+│  └─ takeaway.db           # SQLite database (Restaurants, Menus, Locations)
 │
 ├─ docs/
-│   └─ schema_notes.md    
-       maps ### 📍 Interactive Restaurant Map
-
-      The interactive restaurant distribution map is provided as an HTML file.
-
-     How to view:
-    1. Open `delivery_map.html` in this repository
-    2. Click **Download raw file**
-    3. Open the downloaded file in your browser
-
-
+│  ├─ schema_notes.md       # Database schema
+│  └─ maps/
+│     ├─ maps.html  # Interactive Folium map (Download to view)
+│     └─ maps.pdf   # Static version of the analysis map
 │
-├─ sql/questions
-│   └─ *.ipynb                   # Jupyter notebooks with SQL queries and analysis
+├─ sql/questions/
+│  └─ *.ipynb               # Jupyter notebooks with SQL queries & analysis
 │
-├─ 
-│   └─ Delivery-Market-Analysis-.pdf       # presentation         
+├─ presentation/
+│  └─ Delivery-Market-Analysis.pdf  # Project summary and slide deck
 │
-└─ README.md                     # Project overview and instructions
+└─ README.md                # Project overview and instructions
 
 
-## Questions Covered
+## 📊 Key Analytics & SQL Insights
 
-This project addresses **10 key questions** including:
+| Objective | Key Insight |
+| :--- | :--- |
+| **Q1: Price Distribution** | 85% of menu items are under 20€, showing a market dominated by high-volume, affordable options. |
+| **Q2: Restaurant Density** | Delivery infrastructure is hyper-concentrated in **Antwerpen, Gent, and Bruxelles**|
+| **Q3: Price-to-Rating Ratio** | High ratings are not tied to high prices; casual eateries often outperform luxury restaurants in value-for-money. |
+| **Original Q1: True Value Metric** | Fast delivery and low fees drive customer satisfaction more than high ratings alone. |
 
-1. **Price distribution of menu items**  
-   - Analyze how menu prices are distributed across all restaurants.
+---
 
-2. **Distribution of restaurants per location**  
-   - Determine the number of restaurants in each city or postal code.
+## 🛠️ Tech Stack & Methods
+* **Core Language:** SQL (SQLite) - Focus on complex joins and window functions.
+* **Data Manipulation:** Python (Pandas, NumPy).
+* **Visualization:** Matplotlib, Seaborn.
+* **Mapping:** Folium for interactive heatmaps.
 
-3. **Top 10 pizza restaurants by rating**  
-   - Identify the highest-rated pizza restaurants with sufficient number of ratings.
-
-4. **Mapping of specific dishes and their average price**  
-   - Visualize restaurants serving a specific dish (e.g., kebap or kapsalon) and calculate average prices.
-
-5. **Restaurants with the best price-to-rating ratio**  
-   - Combine menu prices and ratings to find restaurants offering the best value.
-
-6. **Delivery “dead zones” identification**  
-   - Locate areas with minimal restaurant coverage (low delivery availability).
-
-7. **Availability of vegetarian and vegan dishes by area**  
-   - Analyze how vegetarian/vegan options are distributed across different cities.
-
-8. **Top 3 hummus-serving restaurants (World Hummus Order)**  
-   - Identify restaurants offering the best hummus options based on ratings and votes.
-
-9. **Original question 1: True price-to-rating metric**  
-   - Create a metric that combines rating, delivery fee, and estimated delivery time to assess the “true value” of restaurants.
-
-10. **Original question 2: Cuisine types with the highest average delivery fee per city**  
-    - Determine which cuisines cost the most for delivery in different cities.
-
-## Notes
-
-- Analysis is performed primarily using SQL queries executed in Jupyter Notebooks with Pandas for data manipulation and visualization.  
-- Geospatial visualizations are implemented using Folium for interactive maps.  
-- All tables and relationships are documented in `docs/schema_notes.md` to facilitate understanding and reproducibility.  
-- Optional: Visualizations can be recreated or extended in PowerBI if needed for presentations.
+---
